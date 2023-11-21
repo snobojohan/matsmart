@@ -1,44 +1,139 @@
-/* Blue Light scheme (Default) */
 /* Can be forced with data-theme="light" */
 [data-theme="light"],
 :root:not([data-theme="dark"]) {
-  --primary: #3536fc;
-  --primary-hover: #0203b0;
-  --primary-focus: rgba(53, 54, 252, 0.125);
-  --primary-inverse: rgba(0, 0, 0, 0.75);
+  
+  --primary: #D86D00;
+  --primary-hover: #BD4000;
+  --primary-focus: rgba(217, 110, 0, 0.125);
+  --primary-inverse: #fff;
+
+  --color: #001A0F;
+  --h1-color: #001A0F;
+  --h2-color: #001A0F;
+  --h3-color: #00331E;
+  --h4-color: #00331E;  
+  --h5-color: #3F5A4F;
+  --h5-color: #3F5A4F;
 }
 
 /* Yellow Dark scheme (Auto) */
 /* Automatically enabled if user has Dark mode enabled */
 @media only screen and (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --primary: #fdd835;
-    --primary-hover: #ffeb3b;
+    --primary: #FF9A33;
+    --primary-hover: #FFC080;
     --primary-focus: rgba(253, 216, 53, 0.25);
     --primary-inverse: rgba(0, 0, 0, 0.75);
+    --background-color: #001A0F;
   }
 }
+/* Yellow Dark scheme (Forced) */
+/* Can be forced with data-theme="dark" */
+html[data-theme='dark'] { 
+    --primary: #FF9A33;
+    --primary-hover: #FFC080;
+    --primary-focus: rgba(253, 216, 53, 0.25);
+    --primary-inverse: rgba(0, 0, 0, 0.75);
+    --background-color: #001A0F;
+}
+
 
 /* (Common styles) */
 :root {
+  --font-family: 'Lato', sans-serif;
+  --primary: #D86D00;
+  --primary-hover: #BD4000;
+  --primary-focus: rgba(217, 110, 0, 0.125);
+  --primary-inverse: rgba(0, 0, 0, 0.75); 
   --form-element-active-border-color: var(--primary);
   --form-element-focus-color: var(--primary-focus);
   --switch-color: var(--primary-inverse);
   --switch-checked-background-color: var(--primary);
-  font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Helvetica, Arial, sans-serif;
+  --block-spacing-vertical: 1rem;
+  --typography-spacing-vertical: 1rem;
+  font-family: var(--font-family);
+}
+
+/* Fixing typography 
+html, body, form, fieldset, table, tr, td, img {
+  font-family: var(--font-family);
+}
+
+input, button, select, textarea, optgroup, option {
+  font-family: inherit;
+}*/
+
+h1 {
+  --font-size: 2rem;
+  line-height: 1.3;
+  --typography-spacing-vertical: 1rem;
+}
+
+h2 {
+  --font-size: 1.75rem;
+}
+
+h3 {
+  --font-size: 1.5rem;
+}
+
+h4 {
+  --font-size: 1.25rem;
+}
+
+h5 {
+  --font-size: 1.125rem;
+}
+
+h2,h3,h4,h5 {
+  line-height: 1.3;
+  --typography-spacing-vertical: 0.75rem;
 }
 
 /* Customizations */
 
+[data-theme="light"] div {
+  background-color: #666;
+  color:#BD4000
+}
+
+
+
+header > nav > ul > li > a > img {
+  max-width: 150px;
+}
+
 [data-theme="light"] header > nav > ul > li > a > img {
-  content: url("/static/img/logo-dark.png");
+  content: url("/static/img/logo.webp");
 }
 
 [data-theme="dark"] header > nav > ul > li > a > img {
-  content: url("/static/img/logo-light.png");
+  content: url("/static/img/logo-darkmode.webp");
 }
 
 header > nav > ul > li > a[data-current="current item"] {
   background-color: var(--primary-focus);
+}
+
+button {
+  font-weight: 700;
+  color: var(--primary-inverse);
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 576px) {
+  nav {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  nav > ul:first-child {
+      justify-content: center;
+  }
+
+  nav > ul:last-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 }

@@ -5,8 +5,11 @@
   <meta name="description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
   <link rel="dns-prefetch" href="https://identity.netlify.com">
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
   {% set css %}
-    {% include "../../node_modules/@picocss/pico/css/pico.classless.min.css" %}
+    {% include "../assets/css/pico.classless.css" %}
     {% include "../assets/css/inline.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
