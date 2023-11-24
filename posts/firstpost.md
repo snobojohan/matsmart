@@ -1,13 +1,19 @@
 ---
 title: This is the first example post
-metaDescription: This is a sample meta description. If one is not present in
-  your page/post's front matter, the default metadata.desciption will be used
-  instead.
 date: 2019-01-01T00:00:00.000Z
+main_image: /static/img/kottfarsas.png
+image_alt: En bild av en portion vanlig Spaghetti med Köttfärssås också kallat
+  Bolognese. Lite riven parmesan och ett basilikablad på toppen. Bilden
+  Genererad med DALL·E 3
+image_caption: Spaghetti med Köttfärssås är samma sak som Spaghetti Bolognese
+  och det är den vanligaste rätten som lagas i svenska hem.
 author: John Appleseed
 summary: Sveriges favoriträtt, Spaghetti Bolognese. Enkel att laga och alltid
   uppskattad. Lär dig att 'tweaka' receptet för att göra det nyttigare och
   smartare utan att förlora dess klassiska charm.
+metaDescription: This is a sample meta description. If one is not present in
+  your page/post's front matter, the default metadata.desciption will be used
+  instead.
 tags:
   - tech
   - environment
