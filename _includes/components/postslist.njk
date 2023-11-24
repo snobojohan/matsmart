@@ -10,6 +10,12 @@
 					{% endif %}
 				</a>
 			</h3>
+			{% if post.data.main_image %}
+				<figure>
+					<img src="{{ post.data.main_image }}" alt="{{ post.data.image_alt | default('Default alt text if none provided') }}">
+					<figcaption>{{ post.data.image_caption }}</figcaption>
+				</figure>
+			{% endif %}
 			{% if post.data.summary %}
 				<p>
 					{{ post.data.summary }}
