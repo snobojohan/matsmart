@@ -1,0 +1,569 @@
+2023-12-12T23:35:11.476Z Eleventy:cmd command: eleventy { _: [], quiet: null, version: false, watch: false, dryrun: false, help: false, serve: false, incremental: false, 'ignore-initial': false }
+2023-12-12T23:35:11.517Z Eleventy:EventBus Setting up global EventBus.
+2023-12-12T23:35:11.665Z Eleventy:UserConfig Resetting EleventyConfig to initial values.
+2023-12-12T23:35:11.671Z Eleventy:UserConfig Adding universal filter 'slug'
+2023-12-12T23:35:11.672Z Eleventy:UserConfig Adding universal filter 'slugify'
+2023-12-12T23:35:11.672Z Eleventy:UserConfig Adding universal filter 'url'
+2023-12-12T23:35:11.672Z Eleventy:UserConfig Adding universal filter 'log'
+2023-12-12T23:35:11.672Z Eleventy:UserConfig Adding universal filter 'serverlessUrl'
+2023-12-12T23:35:11.672Z Eleventy:UserConfig Adding universal filter 'getCollectionItemIndex'
+2023-12-12T23:35:11.672Z Eleventy:UserConfig Adding universal filter 'getCollectionItem'
+2023-12-12T23:35:11.672Z Eleventy:UserConfig Adding universal filter 'getPreviousCollectionItem'
+2023-12-12T23:35:11.672Z Eleventy:UserConfig Adding universal filter 'getNextCollectionItem'
+2023-12-12T23:35:11.672Z Eleventy:TemplateConfig rootConfig { templateFormats: [ 'liquid',   'ejs', 'md',       'hbs', 'mustache', 'haml', 'pug',      'njk', 'html',     '11ty.js' ], pathPrefix: '/', markdownTemplateEngine: 'liquid', htmlTemplateEngine: 'liquid', htmlOutputSuffix: '-o', dataFileSuffixes: [ '.11tydata', '' ], dataFileDirBaseNameOverride: false, keys: { package: 'pkg', layout: 'layout', permalink: 'permalink', permalinkRoot: 'permalinkBypassOutputDir', engineOverride: 'templateEngineOverride', computed: 'eleventyComputed' }, dir: { input: '.', includes: '_includes', data: '_data', output: '_site' }, handlebarsHelpers: {}, nunjucksFilters: {} }
+2023-12-12T23:35:11.673Z Eleventy Setting process.env.ELEVENTY_ROOT: '/Users/johb/Coding/matsmart'
+2023-12-12T23:35:11.673Z Dev:Eleventy:TemplateConfig Merging via getConfig (first time)
+2023-12-12T23:35:11.673Z Eleventy:TemplateConfig Merging config with .eleventy.js
+2023-12-12T23:35:11.875Z Eleventy:UserConfig Adding universal async shortcode 'image'
+2023-12-12T23:35:11.876Z Eleventy:UserConfig Adding universal filter 'readableDate'
+2023-12-12T23:35:11.876Z Eleventy:UserConfig Adding universal filter 'machineDate'
+2023-12-12T23:35:11.876Z Eleventy:UserConfig Adding universal filter 'cssmin'
+2023-12-12T23:35:11.876Z Eleventy:UserConfig Adding universal filter 'jsmin'
+2023-12-12T23:35:11.889Z Eleventy:UserConfig Adding anonymous plugin
+2023-12-12T23:35:11.891Z Eleventy:UserConfig Adding universal filter 'eleventyNavigation'
+2023-12-12T23:35:11.891Z Eleventy:UserConfig Adding universal filter 'eleventyNavigationBreadcrumb'
+2023-12-12T23:35:11.891Z Eleventy:UserConfig Adding universal filter 'eleventyNavigationToHtml'
+2023-12-12T23:35:11.891Z Eleventy:UserConfig Adding universal filter 'eleventyNavigationToMarkdown'
+2023-12-12T23:35:11.892Z Eleventy:TemplateConfig overrides: {}
+2023-12-12T23:35:11.893Z Eleventy:TemplateConfig Current configuration: { pathPrefix: '/', markdownTemplateEngine: 'liquid', htmlTemplateEngine: 'njk', htmlOutputSuffix: '-o', dataFileSuffixes: [ '.11tydata', '' ], dataFileDirBaseNameOverride: false, keys: { package: 'pkg', layout: 'layout', permalink: 'permalink', permalinkRoot: 'permalinkBypassOutputDir', engineOverride: 'templateEngineOverride', computed: 'eleventyComputed' }, dir: { input: '.', includes: '_includes', data: '_data', output: '_site' }, handlebarsHelpers: { slug: [Function (anonymous)], slugify: [Function (anonymous)], url: [Function (anonymous)], log: [Function (anonymous)], serverlessUrl: [Function (anonymous)], getCollectionItemIndex: [Function (anonymous)], getCollectionItem: [Function (anonymous)], getPreviousCollectionItem: [Function (anonymous)], getNextCollectionItem: [Function (anonymous)], readableDate: [Function (anonymous)], machineDate: [Function (anonymous)], cssmin: [Function (anonymous)], jsmin: [Function (anonymous)], eleventyNavigation: [Function (anonymous)], eleventyNavigationBreadcrumb: [Function (anonymous)], eleventyNavigationToHtml: [Function (anonymous)], eleventyNavigationToMarkdown: [Function (anonymous)] }, nunjucksFilters: { slug: [Function (anonymous)], slugify: [Function (anonymous)], url: [Function (anonymous)], log: [Function (anonymous)], serverlessUrl: [Function (anonymous)], getCollectionItemIndex: [Function (anonymous)], getCollectionItem: [Function (anonymous)], getPreviousCollectionItem: [Function (anonymous)], getNextCollectionItem: [Function (anonymous)], readableDate: [Function (anonymous)], machineDate: [Function (anonymous)], cssmin: [Function (anonymous)], jsmin: [Function (anonymous)], eleventyNavigation: [Function (anonymous)], eleventyNavigationBreadcrumb: [Function (anonymous)], eleventyNavigationToHtml: [Function (anonymous)], eleventyNavigationToMarkdown: [Function (anonymous)] }, dataTemplateEngine: 'njk', templateFormats: [ 'md', 'njk', 'html', 'liquid' ], transforms: { htmlmin: [Function (anonymous)] }, linters: {}, globalData: {}, layoutAliases: {}, layoutResolution: true, passthroughCopies: { 'favicon.ico': { outputPath: true, copyOptions: {} }, 'static/img': { outputPath: true, copyOptions: {} }, admin: { outputPath: true, copyOptions: {} }, '_includes/assets/css/inline.css': { outputPath: true, copyOptions: {} } }, liquidOptions: {}, liquidTags: {}, liquidFilters: { slug: [Function (anonymous)], slugify: [Function (anonymous)], url: [Function (anonymous)], log: [Function (anonymous)], serverlessUrl: [Function (anonymous)], getCollectionItemIndex: [Function (anonymous)], getCollectionItem: [Function (anonymous)], getPreviousCollectionItem: [Function (anonymous)], getNextCollectionItem: [Function (anonymous)], readableDate: [Function (anonymous)], machineDate: [Function (anonymous)], cssmin: [Function (anonymous)], jsmin: [Function (anonymous)], eleventyNavigation: [Function (anonymous)], eleventyNavigationBreadcrumb: [Function (anonymous)], eleventyNavigationToHtml: [Function (anonymous)], eleventyNavigationToMarkdown: [Function (anonymous)] }, liquidShortcodes: { image: [Function (anonymous)] }, liquidPairedShortcodes: {}, nunjucksEnvironmentOptions: {}, nunjucksPrecompiledTemplates: {}, nunjucksAsyncFilters: {}, nunjucksTags: {}, nunjucksGlobals: {}, nunjucksAsyncShortcodes: { image: [Function (anonymous)] }, nunjucksShortcodes: {}, nunjucksAsyncPairedShortcodes: {}, nunjucksPairedShortcodes: {}, handlebarsShortcodes: {}, handlebarsPairedShortcodes: {}, javascriptFunctions: { slug: [Function (anonymous)], slugify: [Function (anonymous)], url: [Function (anonymous)], log: [Function (anonymous)], serverlessUrl: [Function (anonymous)], getCollectionItemIndex: [Function (anonymous)], getCollectionItem: [Function (anonymous)], getPreviousCollectionItem: [Function (anonymous)], getNextCollectionItem: [Function (anonymous)], image: [Function (anonymous)], readableDate: [Function (anonymous)], machineDate: [Function (anonymous)], cssmin: [Function (anonymous)], jsmin: [Function (anonymous)], eleventyNavigation: [Function (anonymous)], eleventyNavigationBreadcrumb: [Function (anonymous)], eleventyNavigationToHtml: [Function (anonymous)], eleventyNavigationToMarkdown: [Function (anonymous)] }, pugOptions: {}, ejsOptions: {}, markdownHighlighter: null, libraryOverrides: { md: MarkdownIt { inline: [ParserInline], block: [ParserBlock], core: [Core], renderer: [Renderer], linkify: [LinkifyIt], validateLink: [Function: validateLink], normalizeLink: [Function: normalizeLink], normalizeLinkText: [Function: normalizeLinkText], utils: [Object], helpers: [Object], options: [Object] } }, dynamicPermalinks: true, useGitIgnore: true, ignores: Set(2) { '**/node_modules/**', '.git/**' }, watchIgnores: Set(2) { '**/node_modules/**', '.git/**' }, dataDeepMerge: true, watchJavaScriptDependencies: true, additionalWatchTargets: [], serverOptions: {}, chokidarConfig: {}, watchThrottleWaitTime: 0, frontMatterParsingOptions: undefined, dataExtensions: Map(0) {}, extensionMap: Set(0) {}, quietMode: false, events: AsyncEventEmitter { _events: [Object: null prototype] {}, _eventsCount: 0, _maxListeners: undefined, [Symbol(kCapture)]: false }, benchmarkManager: BenchmarkManager { benchmarkGroups: { Configuration: [BenchmarkGroup], Aggregate: [BenchmarkGroup] }, isVerbose: true, start: 218.07937479019165 }, plugins: [ { plugin: [Function], options: undefined, pluginNamespace: '' } ], useTemplateCache: true, precompiledCollections: {}, dataFilterSelectors: Set(0) {}, libraryAmendments: {}, serverPassthroughCopyBehavior: 'copy', urlTransforms: [] }
+2023-12-12T23:35:11.893Z Eleventy Eleventy warm up time (in ms) 445.56833267211914
+2023-12-12T23:35:11.894Z Eleventy:TemplatePassthroughManager Resetting counts to 0
+2023-12-12T23:35:11.904Z Eleventy:EleventyFiles .gitignore,.eleventyignore,.eleventyignore ignoring: ./_site/**
+2023-12-12T23:35:11.904Z Eleventy:EleventyFiles .gitignore,.eleventyignore,.eleventyignore ignoring: ./node_modules/**
+2023-12-12T23:35:11.904Z Eleventy:EleventyFiles .gitignore,.eleventyignore,.eleventyignore ignoring: ./package-lock.json
+2023-12-12T23:35:11.904Z Eleventy:EleventyFiles .gitignore,.eleventyignore,.eleventyignore ignoring: ./.DS_Store
+2023-12-12T23:35:11.904Z Eleventy:EleventyFiles .gitignore,.eleventyignore,.eleventyignore ignoring: ./README.md
+2023-12-12T23:35:11.904Z Eleventy:EleventyFiles .gitignore,.eleventyignore,.eleventyignore ignoring: ./.github/**
+2023-12-12T23:35:11.904Z Eleventy:EleventyFiles .gitignore,.eleventyignore,.eleventyignore ignoring: ./README.md
+2023-12-12T23:35:11.904Z Eleventy:EleventyFiles .gitignore,.eleventyignore,.eleventyignore ignoring: ./.github/**
+2023-12-12T23:35:11.905Z Eleventy Directories:
+Input (Dir): .
+Input (File): undefined
+Data: _data
+Includes: _includes
+Layouts: undefined
+Output: _site
+Template Formats: md,njk,html,liquid
+Verbose Output: false
+2023-12-12T23:35:11.905Z Eleventy:EleventyFiles Searching for: [ './**/*.{md,njk,html,liquid}' ]
+2023-12-12T23:35:11.905Z Eleventy:FastGlobManager Glob search ('templates') searching for: [ './**/*.{md,njk,html,liquid}' ]
+2023-12-12T23:35:11.905Z Eleventy:FastGlobManager Glob search ('templates') ignoring: [ '_site/**', 'node_modules/**', 'package-lock.json', '.DS_Store', 'README.md', '.github/**', '_includes/**', '_data/**', '**/node_modules/**', '.git/**' ]
+2023-12-12T23:35:11.916Z Eleventy:TemplatePassthroughManager TemplatePassthrough copy started.
+2023-12-12T23:35:11.916Z Eleventy:TemplatePassthroughManager `addPassthroughCopy` config API paths: { 'favicon.ico': { outputPath: true, copyOptions: {} }, 'static/img': { outputPath: true, copyOptions: {} }, admin: { outputPath: true, copyOptions: {} }, '_includes/assets/css/inline.css': { outputPath: true, copyOptions: {} } }
+2023-12-12T23:35:11.916Z Eleventy:TemplatePassthroughManager `addPassthroughCopy` config API normalized paths: [ { inputPath: './favicon.ico', outputPath: true, copyOptions: {} }, { inputPath: './static/img', outputPath: true, copyOptions: {} }, { inputPath: './admin', outputPath: true, copyOptions: {} }, { inputPath: './_includes/assets/css/inline.css', outputPath: true, copyOptions: {} } ]
+2023-12-12T23:35:11.916Z Eleventy:TemplatePassthroughManager TemplatePassthrough copying from config: { inputPath: './favicon.ico', outputPath: true, copyOptions: {} }
+2023-12-12T23:35:11.916Z Eleventy:TemplatePassthroughManager TemplatePassthrough copying from config: { inputPath: './static/img', outputPath: true, copyOptions: {} }
+2023-12-12T23:35:11.916Z Eleventy:TemplatePassthroughManager TemplatePassthrough copying from config: { inputPath: './admin', outputPath: true, copyOptions: {} }
+2023-12-12T23:35:11.916Z Eleventy:TemplatePassthroughManager TemplatePassthrough copying from config: { inputPath: './_includes/assets/css/inline.css', outputPath: true, copyOptions: {} }
+2023-12-12T23:35:11.917Z Eleventy:TemplatePassthrough Copying './favicon.ico'
+2023-12-12T23:35:11.917Z Eleventy:TemplatePassthrough Copying './static/img'
+2023-12-12T23:35:11.917Z Eleventy:TemplatePassthrough Copying './admin'
+2023-12-12T23:35:11.917Z Eleventy:TemplatePassthrough Copying './_includes/assets/css/inline.css'
+2023-12-12T23:35:11.917Z Dev:Eleventy:Template new Template('./404.md')
+2023-12-12T23:35:11.918Z Dev:Eleventy:Template './404.md' getData
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData getLocalDataPaths('./404.md')
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData parsed.dir: '.'
+2023-12-12T23:35:11.918Z Eleventy:TemplateData Using [ '.11tydata', '' ] suffixes to find data files.
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData allDirs: [ '.' ]
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData dirStr: '.'; inputDir: './'
+2023-12-12T23:35:11.918Z Eleventy:TemplateData getLocalDataPaths('./404.md'): [ './404.11tydata.js', './404.11tydata.cjs', './404.11tydata.json', './404.json' ]
+2023-12-12T23:35:11.918Z Eleventy:TemplateWriter ./404.md adding to template map.
+2023-12-12T23:35:11.918Z Dev:Eleventy:Template new Template('./author.njk')
+2023-12-12T23:35:11.918Z Dev:Eleventy:Template './author.njk' getData
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData getLocalDataPaths('./author.njk')
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData parsed.dir: '.'
+2023-12-12T23:35:11.918Z Eleventy:TemplateData Using [ '.11tydata', '' ] suffixes to find data files.
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData allDirs: [ '.' ]
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData dirStr: '.'; inputDir: './'
+2023-12-12T23:35:11.918Z Eleventy:TemplateData getLocalDataPaths('./author.njk'): [ './author.11tydata.js', './author.11tydata.cjs', './author.11tydata.json', './author.json' ]
+2023-12-12T23:35:11.918Z Eleventy:TemplateWriter ./author.njk adding to template map.
+2023-12-12T23:35:11.918Z Dev:Eleventy:Template new Template('./authors.njk')
+2023-12-12T23:35:11.918Z Dev:Eleventy:Template './authors.njk' getData
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData getLocalDataPaths('./authors.njk')
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData parsed.dir: '.'
+2023-12-12T23:35:11.918Z Eleventy:TemplateData Using [ '.11tydata', '' ] suffixes to find data files.
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData allDirs: [ '.' ]
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData dirStr: '.'; inputDir: './'
+2023-12-12T23:35:11.918Z Eleventy:TemplateData getLocalDataPaths('./authors.njk'): [ './authors.11tydata.js', './authors.11tydata.cjs', './authors.11tydata.json', './authors.json' ]
+2023-12-12T23:35:11.918Z Eleventy:TemplateWriter ./authors.njk adding to template map.
+2023-12-12T23:35:11.918Z Dev:Eleventy:Template new Template('./tags.njk')
+2023-12-12T23:35:11.918Z Dev:Eleventy:Template './tags.njk' getData
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData getLocalDataPaths('./tags.njk')
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData parsed.dir: '.'
+2023-12-12T23:35:11.918Z Eleventy:TemplateData Using [ '.11tydata', '' ] suffixes to find data files.
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData allDirs: [ '.' ]
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData dirStr: '.'; inputDir: './'
+2023-12-12T23:35:11.918Z Eleventy:TemplateData getLocalDataPaths('./tags.njk'): [ './tags.11tydata.js', './tags.11tydata.cjs', './tags.11tydata.json', './tags.json' ]
+2023-12-12T23:35:11.918Z Eleventy:TemplateWriter ./tags.njk adding to template map.
+2023-12-12T23:35:11.918Z Dev:Eleventy:Template new Template('./admin/index.html')
+2023-12-12T23:35:11.918Z Dev:Eleventy:Template './admin/index.html' getData
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData getLocalDataPaths('./admin/index.html')
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData parsed.dir: './admin'
+2023-12-12T23:35:11.918Z Eleventy:TemplateData Using [ '.11tydata', '' ] suffixes to find data files.
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData allDirs: [ './admin' ]
+2023-12-12T23:35:11.918Z Dev:Eleventy:TemplateData dirStr: './admin'; inputDir: './'
+2023-12-12T23:35:11.919Z Eleventy:TemplateData getLocalDataPaths('./admin/index.html'): [ './admin/index.11tydata.js', './admin/index.11tydata.cjs', './admin/index.11tydata.json', './admin/index.json', './admin/admin.11tydata.js', './admin/admin.11tydata.cjs', './admin/admin.11tydata.json', './admin/admin.json' ]
+2023-12-12T23:35:11.919Z Eleventy:TemplateWriter ./admin/index.html adding to template map.
+2023-12-12T23:35:11.919Z Dev:Eleventy:Template new Template('./pages/about.md')
+2023-12-12T23:35:11.919Z Dev:Eleventy:Template './pages/about.md' getData
+2023-12-12T23:35:11.919Z Dev:Eleventy:TemplateData getLocalDataPaths('./pages/about.md')
+2023-12-12T23:35:11.919Z Dev:Eleventy:TemplateData parsed.dir: './pages'
+2023-12-12T23:35:11.919Z Eleventy:TemplateData Using [ '.11tydata', '' ] suffixes to find data files.
+2023-12-12T23:35:11.919Z Dev:Eleventy:TemplateData allDirs: [ './pages' ]
+2023-12-12T23:35:11.919Z Dev:Eleventy:TemplateData dirStr: './pages'; inputDir: './'
+2023-12-12T23:35:11.919Z Eleventy:TemplateData getLocalDataPaths('./pages/about.md'): [ './pages/about.11tydata.js', './pages/about.11tydata.cjs', './pages/about.11tydata.json', './pages/about.json', './pages/pages.11tydata.js', './pages/pages.11tydata.cjs', './pages/pages.11tydata.json', './pages/pages.json' ]
+2023-12-12T23:35:11.919Z Eleventy:TemplateWriter ./pages/about.md adding to template map.
+2023-12-12T23:35:11.919Z Dev:Eleventy:Template new Template('./pages/blog.md')
+2023-12-12T23:35:11.919Z Dev:Eleventy:Template './pages/blog.md' getData
+2023-12-12T23:35:11.919Z Dev:Eleventy:TemplateData getLocalDataPaths('./pages/blog.md')
+2023-12-12T23:35:11.919Z Dev:Eleventy:TemplateData parsed.dir: './pages'
+2023-12-12T23:35:11.919Z Eleventy:TemplateData Using [ '.11tydata', '' ] suffixes to find data files.
+2023-12-12T23:35:11.919Z Dev:Eleventy:TemplateData allDirs: [ './pages' ]
+2023-12-12T23:35:11.919Z Dev:Eleventy:TemplateData dirStr: './pages'; inputDir: './'
+2023-12-12T23:35:11.919Z Eleventy:TemplateData getLocalDataPaths('./pages/blog.md'): [ './pages/blog.11tydata.js', './pages/blog.11tydata.cjs', './pages/blog.11tydata.json', './pages/blog.json', './pages/pages.11tydata.js', './pages/pages.11tydata.cjs', './pages/pages.11tydata.json', './pages/pages.json' ]
+2023-12-12T23:35:11.919Z Eleventy:TemplateWriter ./pages/blog.md adding to template map.
+2023-12-12T23:35:11.919Z Dev:Eleventy:Template new Template('./pages/contact.md')
+2023-12-12T23:35:11.919Z Dev:Eleventy:Template './pages/contact.md' getData
+2023-12-12T23:35:11.919Z Dev:Eleventy:TemplateData getLocalDataPaths('./pages/contact.md')
+2023-12-12T23:35:11.919Z Dev:Eleventy:TemplateData parsed.dir: './pages'
+2023-12-12T23:35:11.919Z Eleventy:TemplateData Using [ '.11tydata', '' ] suffixes to find data files.
+2023-12-12T23:35:11.919Z Dev:Eleventy:TemplateData allDirs: [ './pages' ]
+2023-12-12T23:35:11.919Z Dev:Eleventy:TemplateData dirStr: './pages'; inputDir: './'
+2023-12-12T23:35:11.919Z Eleventy:TemplateData getLocalDataPaths('./pages/contact.md'): [ './pages/contact.11tydata.js', './pages/contact.11tydata.cjs', './pages/contact.11tydata.json', './pages/contact.json', './pages/pages.11tydata.js', './pages/pages.11tydata.cjs', './pages/pages.11tydata.json', './pages/pages.json' ]
+2023-12-12T23:35:11.919Z Eleventy:TemplateWriter ./pages/contact.md adding to template map.
+2023-12-12T23:35:11.919Z Dev:Eleventy:Template new Template('./pages/home.md')
+2023-12-12T23:35:11.919Z Dev:Eleventy:Template './pages/home.md' getData
+2023-12-12T23:35:11.919Z Dev:Eleventy:TemplateData getLocalDataPaths('./pages/home.md')
+2023-12-12T23:35:11.919Z Dev:Eleventy:TemplateData parsed.dir: './pages'
+2023-12-12T23:35:11.919Z Eleventy:TemplateData Using [ '.11tydata', '' ] suffixes to find data files.
+2023-12-12T23:35:11.919Z Dev:Eleventy:TemplateData allDirs: [ './pages' ]
+2023-12-12T23:35:11.919Z Dev:Eleventy:TemplateData dirStr: './pages'; inputDir: './'
+2023-12-12T23:35:11.919Z Eleventy:TemplateData getLocalDataPaths('./pages/home.md'): [ './pages/home.11tydata.js', './pages/home.11tydata.cjs', './pages/home.11tydata.json', './pages/home.json', './pages/pages.11tydata.js', './pages/pages.11tydata.cjs', './pages/pages.11tydata.json', './pages/pages.json' ]
+2023-12-12T23:35:11.919Z Eleventy:TemplateWriter ./pages/home.md adding to template map.
+2023-12-12T23:35:11.919Z Dev:Eleventy:Template new Template('./posts/firstpost.md')
+2023-12-12T23:35:11.920Z Dev:Eleventy:Template './posts/firstpost.md' getData
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData getLocalDataPaths('./posts/firstpost.md')
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData parsed.dir: './posts'
+2023-12-12T23:35:11.920Z Eleventy:TemplateData Using [ '.11tydata', '' ] suffixes to find data files.
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData allDirs: [ './posts' ]
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData dirStr: './posts'; inputDir: './'
+2023-12-12T23:35:11.920Z Eleventy:TemplateData getLocalDataPaths('./posts/firstpost.md'): [ './posts/firstpost.11tydata.js', './posts/firstpost.11tydata.cjs', './posts/firstpost.11tydata.json', './posts/firstpost.json', './posts/posts.11tydata.js', './posts/posts.11tydata.cjs', './posts/posts.11tydata.json', './posts/posts.json' ]
+2023-12-12T23:35:11.920Z Eleventy:TemplateWriter ./posts/firstpost.md adding to template map.
+2023-12-12T23:35:11.920Z Dev:Eleventy:Template new Template('./posts/fourthpost.md')
+2023-12-12T23:35:11.920Z Dev:Eleventy:Template './posts/fourthpost.md' getData
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData getLocalDataPaths('./posts/fourthpost.md')
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData parsed.dir: './posts'
+2023-12-12T23:35:11.920Z Eleventy:TemplateData Using [ '.11tydata', '' ] suffixes to find data files.
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData allDirs: [ './posts' ]
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData dirStr: './posts'; inputDir: './'
+2023-12-12T23:35:11.920Z Eleventy:TemplateData getLocalDataPaths('./posts/fourthpost.md'): [ './posts/fourthpost.11tydata.js', './posts/fourthpost.11tydata.cjs', './posts/fourthpost.11tydata.json', './posts/fourthpost.json', './posts/posts.11tydata.js', './posts/posts.11tydata.cjs', './posts/posts.11tydata.json', './posts/posts.json' ]
+2023-12-12T23:35:11.920Z Eleventy:TemplateWriter ./posts/fourthpost.md adding to template map.
+2023-12-12T23:35:11.920Z Dev:Eleventy:Template new Template('./posts/secondpost.md')
+2023-12-12T23:35:11.920Z Dev:Eleventy:Template './posts/secondpost.md' getData
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData getLocalDataPaths('./posts/secondpost.md')
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData parsed.dir: './posts'
+2023-12-12T23:35:11.920Z Eleventy:TemplateData Using [ '.11tydata', '' ] suffixes to find data files.
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData allDirs: [ './posts' ]
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData dirStr: './posts'; inputDir: './'
+2023-12-12T23:35:11.920Z Eleventy:TemplateData getLocalDataPaths('./posts/secondpost.md'): [ './posts/secondpost.11tydata.js', './posts/secondpost.11tydata.cjs', './posts/secondpost.11tydata.json', './posts/secondpost.json', './posts/posts.11tydata.js', './posts/posts.11tydata.cjs', './posts/posts.11tydata.json', './posts/posts.json' ]
+2023-12-12T23:35:11.920Z Eleventy:TemplateWriter ./posts/secondpost.md adding to template map.
+2023-12-12T23:35:11.920Z Dev:Eleventy:Template new Template('./posts/the-fifth-and-hopefully-final-example-post.md')
+2023-12-12T23:35:11.920Z Dev:Eleventy:Template './posts/the-fifth-and-hopefully-final-example-post.md' getData
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData getLocalDataPaths('./posts/the-fifth-and-hopefully-final-example-post.md')
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData parsed.dir: './posts'
+2023-12-12T23:35:11.920Z Eleventy:TemplateData Using [ '.11tydata', '' ] suffixes to find data files.
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData allDirs: [ './posts' ]
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData dirStr: './posts'; inputDir: './'
+2023-12-12T23:35:11.920Z Eleventy:TemplateData getLocalDataPaths('./posts/the-fifth-and-hopefully-final-example-post.md'): [ './posts/the-fifth-and-hopefully-final-example-post.11tydata.js', './posts/the-fifth-and-hopefully-final-example-post.11tydata.cjs', './posts/the-fifth-and-hopefully-final-example-post.11tydata.json', './posts/the-fifth-and-hopefully-final-example-post.json', './posts/posts.11tydata.js', './posts/posts.11tydata.cjs', './posts/posts.11tydata.json', './posts/posts.json' ]
+2023-12-12T23:35:11.920Z Eleventy:TemplateWriter ./posts/the-fifth-and-hopefully-final-example-post.md adding to template map.
+2023-12-12T23:35:11.920Z Dev:Eleventy:Template new Template('./posts/thirdpost.md')
+2023-12-12T23:35:11.920Z Dev:Eleventy:Template './posts/thirdpost.md' getData
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData getLocalDataPaths('./posts/thirdpost.md')
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData parsed.dir: './posts'
+2023-12-12T23:35:11.920Z Eleventy:TemplateData Using [ '.11tydata', '' ] suffixes to find data files.
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData allDirs: [ './posts' ]
+2023-12-12T23:35:11.920Z Dev:Eleventy:TemplateData dirStr: './posts'; inputDir: './'
+2023-12-12T23:35:11.920Z Eleventy:TemplateData getLocalDataPaths('./posts/thirdpost.md'): [ './posts/thirdpost.11tydata.js', './posts/thirdpost.11tydata.cjs', './posts/thirdpost.11tydata.json', './posts/thirdpost.json', './posts/posts.11tydata.js', './posts/posts.11tydata.cjs', './posts/posts.11tydata.json', './posts/posts.json' ]
+2023-12-12T23:35:11.920Z Eleventy:TemplateWriter ./posts/thirdpost.md adding to template map.
+2023-12-12T23:35:11.935Z Eleventy:FastGlobManager Glob search ('global-data') searching for: [ './_data/**/*.{json,cjs,js}' ]
+2023-12-12T23:35:11.942Z Eleventy:TemplatePassthrough Copying individual file 'favicon.ico'
+2023-12-12T23:35:11.942Z Eleventy:TemplatePassthrough Copying individual file '_includes/assets/css/inline.css'
+2023-12-12T23:35:11.942Z Eleventy:TemplatePassthrough Copying individual file 'static/img/kottfarsas.png'
+2023-12-12T23:35:11.942Z Eleventy:TemplatePassthrough Copying individual file 'static/img/logo.webp'
+2023-12-12T23:35:11.942Z Eleventy:TemplatePassthrough Copying individual file 'static/img/logo-darkmode.webp'
+2023-12-12T23:35:11.944Z Eleventy:TemplatePassthrough Copying individual file 'admin/config.yml'
+2023-12-12T23:35:11.944Z Eleventy:TemplatePassthrough Copying individual file 'admin/preview-templates/index.js'
+2023-12-12T23:35:11.944Z Eleventy:TemplatePassthrough Copying individual file 'admin/index.html'
+2023-12-12T23:35:11.944Z Eleventy:TemplatePassthrough Copying individual file 'admin/preview-templates/page.js'
+2023-12-12T23:35:11.944Z Eleventy:TemplatePassthrough Copying individual file 'admin/preview-templates/post.js'
+2023-12-12T23:35:11.945Z Eleventy:TemplateData Found global data file ./_data/metadata.json and adding as: metadata
+2023-12-12T23:35:11.946Z Dev:Eleventy:Template './404.md' getData getTemplateDirectoryData and getGlobalData
+2023-12-12T23:35:11.955Z Dev:Eleventy:Template './author.njk' getData getTemplateDirectoryData and getGlobalData
+2023-12-12T23:35:12.077Z Dev:Eleventy:Template './authors.njk' getData getTemplateDirectoryData and getGlobalData
+2023-12-12T23:35:12.077Z Dev:Eleventy:Template './tags.njk' getData getTemplateDirectoryData and getGlobalData
+2023-12-12T23:35:12.078Z Dev:Eleventy:Template './admin/index.html' getData getTemplateDirectoryData and getGlobalData
+2023-12-12T23:35:12.081Z Dev:Eleventy:Template './pages/blog.md' getData getTemplateDirectoryData and getGlobalData
+2023-12-12T23:35:12.081Z Dev:Eleventy:Template './pages/about.md' getData getTemplateDirectoryData and getGlobalData
+2023-12-12T23:35:12.081Z Dev:Eleventy:Template './pages/contact.md' getData getTemplateDirectoryData and getGlobalData
+2023-12-12T23:35:12.082Z Dev:Eleventy:Template './pages/home.md' getData getTemplateDirectoryData and getGlobalData
+2023-12-12T23:35:12.082Z Dev:Eleventy:Template './posts/fourthpost.md' getData getTemplateDirectoryData and getGlobalData
+2023-12-12T23:35:12.082Z Dev:Eleventy:Template './posts/firstpost.md' getData getTemplateDirectoryData and getGlobalData
+2023-12-12T23:35:12.082Z Dev:Eleventy:Template './posts/thirdpost.md' getData getTemplateDirectoryData and getGlobalData
+2023-12-12T23:35:12.082Z Dev:Eleventy:Template './posts/secondpost.md' getData getTemplateDirectoryData and getGlobalData
+2023-12-12T23:35:12.082Z Dev:Eleventy:Template './posts/the-fifth-and-hopefully-final-example-post.md' getData getTemplateDirectoryData and getGlobalData
+2023-12-12T23:35:12.090Z Dev:Eleventy:TemplatePassthroughManager Adding '_site/favicon.ico' to passthrough copy conflict map, from 'favicon.ico'
+2023-12-12T23:35:12.090Z Eleventy:TemplatePassthroughManager Copied './favicon.ico' (1 files)
+2023-12-12T23:35:12.091Z Dev:Eleventy:TemplatePassthroughManager Adding '_site/_includes/assets/css/inline.css' to passthrough copy conflict map, from '_includes/assets/css/inline.css'
+2023-12-12T23:35:12.091Z Eleventy:TemplatePassthroughManager Copied './_includes/assets/css/inline.css' (1 files)
+2023-12-12T23:35:12.094Z Dev:Eleventy:TemplateLayout Added 'layouts/page.njk' to TemplateCache
+2023-12-12T23:35:12.096Z Dev:Eleventy:TemplateLayout Added 'layouts/base.njk' to TemplateCache
+2023-12-12T23:35:12.097Z Dev:Eleventy:TemplateLayout Added 'layouts/blog.njk' to TemplateCache
+2023-12-12T23:35:12.097Z Dev:Eleventy:TemplateLayout Added 'layouts/contact.njk' to TemplateCache
+2023-12-12T23:35:12.098Z Dev:Eleventy:TemplateLayout Added 'layouts/post.njk' to TemplateCache
+2023-12-12T23:35:12.098Z Dev:Eleventy:TemplateLayout Added 'layouts/home.njk' to TemplateCache
+2023-12-12T23:35:12.099Z Eleventy:Template Template date: using file’s 'birthtimeMs' for './admin/index.html' of 2023-11-21T23:38:35.111Z (from 1700609915111.8792)
+2023-12-12T23:35:12.099Z Dev:Eleventy:Template './admin/index.html' getData mergedData
+2023-12-12T23:35:12.099Z Dev:Eleventy:Template './admin/index.html' getMapped()
+2023-12-12T23:35:12.100Z Dev:Eleventy:Template './tags.njk' getData merged layout chain front matter
+2023-12-12T23:35:12.100Z Dev:Eleventy:Template './author.njk' getData merged layout chain front matter
+2023-12-12T23:35:12.100Z Dev:Eleventy:Template './authors.njk' getData merged layout chain front matter
+2023-12-12T23:35:12.100Z Dev:Eleventy:Template './404.md' getData merged layout chain front matter
+2023-12-12T23:35:12.100Z Dev:Eleventy:Template './pages/about.md' getData merged layout chain front matter
+2023-12-12T23:35:12.100Z Eleventy:Template getMappedDate: using a date in the data for './pages/about.md' of 2017-01-01T00:00:00.000Z
+2023-12-12T23:35:12.100Z Eleventy:Template getMappedDate: YAML parsed it: 2017-01-01T00:00:00.000Z
+2023-12-12T23:35:12.100Z Dev:Eleventy:Template './pages/about.md' getData mergedData
+2023-12-12T23:35:12.100Z Dev:Eleventy:Template './pages/about.md' getMapped()
+2023-12-12T23:35:12.100Z Dev:Eleventy:TemplatePassthroughManager Adding '_site/admin/config.yml' to passthrough copy conflict map, from 'admin/config.yml'
+2023-12-12T23:35:12.100Z Dev:Eleventy:TemplatePassthroughManager Adding '_site/admin/preview-templates/index.js' to passthrough copy conflict map, from 'admin/preview-templates/index.js'
+2023-12-12T23:35:12.100Z Dev:Eleventy:TemplatePassthroughManager Adding '_site/admin/index.html' to passthrough copy conflict map, from 'admin/index.html'
+2023-12-12T23:35:12.100Z Dev:Eleventy:TemplatePassthroughManager Adding '_site/admin/preview-templates/page.js' to passthrough copy conflict map, from 'admin/preview-templates/page.js'
+2023-12-12T23:35:12.100Z Dev:Eleventy:TemplatePassthroughManager Adding '_site/admin/preview-templates/post.js' to passthrough copy conflict map, from 'admin/preview-templates/post.js'
+2023-12-12T23:35:12.100Z Eleventy:TemplatePassthroughManager Copied './admin' (5 files)
+2023-12-12T23:35:12.100Z Dev:Eleventy:Template './pages/blog.md' getData merged layout chain front matter
+2023-12-12T23:35:12.100Z Eleventy:Template getMappedDate: using a date in the data for './pages/blog.md' of 2017-01-01T00:00:00.000Z
+2023-12-12T23:35:12.100Z Eleventy:Template getMappedDate: YAML parsed it: 2017-01-01T00:00:00.000Z
+2023-12-12T23:35:12.100Z Dev:Eleventy:Template './pages/blog.md' getData mergedData
+2023-12-12T23:35:12.101Z Dev:Eleventy:Template './pages/blog.md' getMapped()
+2023-12-12T23:35:12.101Z Dev:Eleventy:Template './pages/contact.md' getData merged layout chain front matter
+2023-12-12T23:35:12.101Z Eleventy:Template getMappedDate: using a date in the data for './pages/contact.md' of 2018-01-01T00:00:00.000Z
+2023-12-12T23:35:12.101Z Eleventy:Template getMappedDate: YAML parsed it: 2018-01-01T00:00:00.000Z
+2023-12-12T23:35:12.101Z Dev:Eleventy:Template './pages/contact.md' getData mergedData
+2023-12-12T23:35:12.101Z Dev:Eleventy:Template './pages/contact.md' getMapped()
+2023-12-12T23:35:12.101Z Eleventy:Template Template date: using file’s 'birthtimeMs' for './tags.njk' of 2023-11-21T23:38:35.117Z (from 1700609915117.6584)
+2023-12-12T23:35:12.101Z Dev:Eleventy:Template './tags.njk' getData mergedData
+2023-12-12T23:35:12.101Z Dev:Eleventy:Template './tags.njk' getMapped()
+2023-12-12T23:35:12.101Z Eleventy:Template Template date: using file’s 'birthtimeMs' for './author.njk' of 2023-11-21T23:38:35.112Z (from 1700609915112.7942)
+2023-12-12T23:35:12.101Z Dev:Eleventy:Template './author.njk' getData mergedData
+2023-12-12T23:35:12.101Z Dev:Eleventy:Template './author.njk' getMapped()
+2023-12-12T23:35:12.101Z Eleventy:Template Template date: using file’s 'birthtimeMs' for './authors.njk' of 2023-11-21T23:38:35.112Z (from 1700609915112.998)
+2023-12-12T23:35:12.101Z Dev:Eleventy:Template './authors.njk' getData mergedData
+2023-12-12T23:35:12.101Z Dev:Eleventy:Template './authors.njk' getMapped()
+2023-12-12T23:35:12.101Z Eleventy:Template Template date: using file’s 'birthtimeMs' for './404.md' of 2023-11-21T23:38:35.107Z (from 1700609915107.0872)
+2023-12-12T23:35:12.101Z Dev:Eleventy:Template './404.md' getData mergedData
+2023-12-12T23:35:12.101Z Dev:Eleventy:Template './404.md' getMapped()
+2023-12-12T23:35:12.101Z Dev:Eleventy:Template './posts/fourthpost.md' getData merged layout chain front matter
+2023-12-12T23:35:12.101Z Eleventy:Template getMappedDate: using a date in the data for './posts/fourthpost.md' of 2020-02-03T00:00:00.000Z
+2023-12-12T23:35:12.101Z Eleventy:Template getMappedDate: YAML parsed it: 2020-02-03T00:00:00.000Z
+2023-12-12T23:35:12.101Z Dev:Eleventy:Template './posts/thirdpost.md' getData merged layout chain front matter
+2023-12-12T23:35:12.101Z Eleventy:Template getMappedDate: using a date in the data for './posts/thirdpost.md' of 2020-01-01T00:00:00.000Z
+2023-12-12T23:35:12.101Z Eleventy:Template getMappedDate: YAML parsed it: 2020-01-01T00:00:00.000Z
+2023-12-12T23:35:12.101Z Dev:Eleventy:Template './posts/the-fifth-and-hopefully-final-example-post.md' getData merged layout chain front matter
+2023-12-12T23:35:12.101Z Eleventy:Template getMappedDate: using a date in the data for './posts/the-fifth-and-hopefully-final-example-post.md' of 2020-10-15T12:23:39.598Z
+2023-12-12T23:35:12.101Z Eleventy:Template getMappedDate: YAML parsed it: 2020-10-15T12:23:39.598Z
+2023-12-12T23:35:12.101Z Dev:Eleventy:Template './posts/secondpost.md' getData merged layout chain front matter
+2023-12-12T23:35:12.101Z Eleventy:Template getMappedDate: using a date in the data for './posts/secondpost.md' of 2020-01-01T00:00:00.000Z
+2023-12-12T23:35:12.101Z Eleventy:Template getMappedDate: YAML parsed it: 2020-01-01T00:00:00.000Z
+2023-12-12T23:35:12.101Z Dev:Eleventy:Template './posts/firstpost.md' getData merged layout chain front matter
+2023-12-12T23:35:12.101Z Eleventy:Template getMappedDate: using a date in the data for './posts/firstpost.md' of 2019-01-01T00:00:00.000Z
+2023-12-12T23:35:12.101Z Eleventy:Template getMappedDate: YAML parsed it: 2019-01-01T00:00:00.000Z
+2023-12-12T23:35:12.102Z Dev:Eleventy:Template './posts/fourthpost.md' getData mergedData
+2023-12-12T23:35:12.102Z Dev:Eleventy:Template './posts/thirdpost.md' getData mergedData
+2023-12-12T23:35:12.102Z Dev:Eleventy:Template './posts/the-fifth-and-hopefully-final-example-post.md' getData mergedData
+2023-12-12T23:35:12.102Z Dev:Eleventy:Template './posts/secondpost.md' getData mergedData
+2023-12-12T23:35:12.102Z Dev:Eleventy:Template './posts/firstpost.md' getData mergedData
+2023-12-12T23:35:12.102Z Dev:Eleventy:Template './posts/fourthpost.md' getMapped()
+2023-12-12T23:35:12.102Z Dev:Eleventy:Template './posts/thirdpost.md' getMapped()
+2023-12-12T23:35:12.102Z Dev:Eleventy:Template './posts/the-fifth-and-hopefully-final-example-post.md' getMapped()
+2023-12-12T23:35:12.102Z Dev:Eleventy:Template './posts/secondpost.md' getMapped()
+2023-12-12T23:35:12.102Z Dev:Eleventy:Template './posts/firstpost.md' getMapped()
+2023-12-12T23:35:12.102Z Dev:Eleventy:Template './pages/home.md' getData merged layout chain front matter
+2023-12-12T23:35:12.102Z Eleventy:Template getMappedDate: using a date in the data for './pages/home.md' of 2016-01-01T00:00:00.000Z
+2023-12-12T23:35:12.102Z Eleventy:Template getMappedDate: YAML parsed it: 2016-01-01T00:00:00.000Z
+2023-12-12T23:35:12.102Z Dev:Eleventy:Template './pages/home.md' getData mergedData
+2023-12-12T23:35:12.102Z Dev:Eleventy:Template './pages/home.md' getMapped()
+2023-12-12T23:35:12.102Z Eleventy:Dependencies 'author.njk' depends on collection: 'authors'
+2023-12-12T23:35:12.102Z Eleventy:Dependencies 'authors.njk' depends on collection: 'authors'
+2023-12-12T23:35:12.103Z Eleventy:TemplateMap Caching collections objects.
+2023-12-12T23:35:12.104Z Dev:Eleventy:TemplateContent './pages/about.md' compile() using engine: 'md'
+2023-12-12T23:35:12.106Z Dev:Eleventy:TemplateContent './pages/about.md' getCompiledTemplate function created
+2023-12-12T23:35:12.107Z Dev:Eleventy:TemplateContent './pages/about.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.107Z Eleventy:Template Rendering permalink for './pages/about.md': /about/index.html becomes '/about/index.html'
+2023-12-12T23:35:12.107Z Dev:Eleventy:Template Permalink rendered with data: { metadata: { title: 'Eleventy Netlify Boilerplate', description: 'A template for building a simple blog website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.', url: 'https://eleventy-netlify-boilerplate.netlify.app' }, eleventy: { version: '2.0.1', generator: 'Eleventy v2.0.1', env: { source: 'cli', runMode: 'build', config: '/Users/johb/Coding/matsmart/.eleventy.js', root: '/Users/johb/Coding/matsmart', isServerless: false } }, pkg: { name: 'eleventy-netlify-boilerplate-with-picocss', version: '1.0.3', description: 'A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.', scripts: { build: 'npx eleventy', watch: 'npx eleventy --watch', serve: 'npx eleventy --serve', debug: 'DEBUG=* npx eleventy' }, repository: { type: 'git', url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate' }, author: { name: 'Csaba Szilveszter', email: 'szilvesztercsab@gmail.com', url: 'https://eleventy-netlify-boilerplate-with-picocss.netlify.app/' }, license: 'MIT', bugs: { url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate/issues' }, homepage: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate', devDependencies: { '@11ty/eleventy': '2.0.1', luxon: '3.4.4', 'markdown-it': '13.0.2', 'markdown-it-anchor': '8.6.7' }, dependencies: { '@11ty/eleventy-img': '^3.1.8', '@11ty/eleventy-navigation': '0.3.5', '@picocss/pico': '1.5.10', 'clean-css': '5.3.2', 'html-minifier': '4.0.0', 'uglify-js': '3.17.4' } }, section: 'page', layout: 'layouts/page.njk', title: 'About us', metaDescription: "This is a sample meta description. If one is not present in your page/post's front matter, the default metadata.desciption will be used instead.", date: 2017-01-01T00:00:00.000Z, permalink: '/about/index.html', eleventyNavigation: { key: 'About', order: 1 }, page: { date: 2017-01-01T00:00:00.000Z, inputPath: './pages/about.md', fileSlug: 'about', filePathStem: '/pages/about', outputFileExtension: 'html', templateSyntax: 'liquid,md' }, collections: {} }
+2023-12-12T23:35:12.107Z Dev:Eleventy:TemplateContent './pages/blog.md' compile() using engine: 'md'
+2023-12-12T23:35:12.107Z Dev:Eleventy:TemplateContent './pages/blog.md' getCompiledTemplate function created
+2023-12-12T23:35:12.107Z Dev:Eleventy:TemplateContent './pages/blog.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.107Z Eleventy:Template Rendering permalink for './pages/blog.md': /blog/index.html becomes '/blog/index.html'
+2023-12-12T23:35:12.107Z Dev:Eleventy:Template Permalink rendered with data: { metadata: { title: 'Eleventy Netlify Boilerplate', description: 'A template for building a simple blog website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.', url: 'https://eleventy-netlify-boilerplate.netlify.app' }, eleventy: { version: '2.0.1', generator: 'Eleventy v2.0.1', env: { source: 'cli', runMode: 'build', config: '/Users/johb/Coding/matsmart/.eleventy.js', root: '/Users/johb/Coding/matsmart', isServerless: false } }, pkg: { name: 'eleventy-netlify-boilerplate-with-picocss', version: '1.0.3', description: 'A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.', scripts: { build: 'npx eleventy', watch: 'npx eleventy --watch', serve: 'npx eleventy --serve', debug: 'DEBUG=* npx eleventy' }, repository: { type: 'git', url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate' }, author: { name: 'Csaba Szilveszter', email: 'szilvesztercsab@gmail.com', url: 'https://eleventy-netlify-boilerplate-with-picocss.netlify.app/' }, license: 'MIT', bugs: { url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate/issues' }, homepage: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate', devDependencies: { '@11ty/eleventy': '2.0.1', luxon: '3.4.4', 'markdown-it': '13.0.2', 'markdown-it-anchor': '8.6.7' }, dependencies: { '@11ty/eleventy-img': '^3.1.8', '@11ty/eleventy-navigation': '0.3.5', '@picocss/pico': '1.5.10', 'clean-css': '5.3.2', 'html-minifier': '4.0.0', 'uglify-js': '3.17.4' } }, section: 'blog', permalink: '/blog/index.html', layout: 'layouts/blog.njk', title: 'Blog', metaDescription: 'A sample Blog page listing various posts and authors.', date: 2017-01-01T00:00:00.000Z, eleventyNavigation: { key: 'Blog', order: 2 }, page: { date: 2017-01-01T00:00:00.000Z, inputPath: './pages/blog.md', fileSlug: 'blog', filePathStem: '/pages/blog', outputFileExtension: 'html', templateSyntax: 'liquid,md' }, collections: {} }
+2023-12-12T23:35:12.107Z Dev:Eleventy:TemplateContent './pages/contact.md' compile() using engine: 'md'
+2023-12-12T23:35:12.107Z Dev:Eleventy:TemplateContent './pages/contact.md' getCompiledTemplate function created
+2023-12-12T23:35:12.107Z Dev:Eleventy:TemplateContent './pages/contact.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.107Z Eleventy:Template Rendering permalink for './pages/contact.md': /contact/index.html becomes '/contact/index.html'
+2023-12-12T23:35:12.108Z Dev:Eleventy:Template Permalink rendered with data: { metadata: { title: 'Eleventy Netlify Boilerplate', description: 'A template for building a simple blog website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.', url: 'https://eleventy-netlify-boilerplate.netlify.app' }, eleventy: { version: '2.0.1', generator: 'Eleventy v2.0.1', env: { source: 'cli', runMode: 'build', config: '/Users/johb/Coding/matsmart/.eleventy.js', root: '/Users/johb/Coding/matsmart', isServerless: false } }, pkg: { name: 'eleventy-netlify-boilerplate-with-picocss', version: '1.0.3', description: 'A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.', scripts: { build: 'npx eleventy', watch: 'npx eleventy --watch', serve: 'npx eleventy --serve', debug: 'DEBUG=* npx eleventy' }, repository: { type: 'git', url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate' }, author: { name: 'Csaba Szilveszter', email: 'szilvesztercsab@gmail.com', url: 'https://eleventy-netlify-boilerplate-with-picocss.netlify.app/' }, license: 'MIT', bugs: { url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate/issues' }, homepage: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate', devDependencies: { '@11ty/eleventy': '2.0.1', luxon: '3.4.4', 'markdown-it': '13.0.2', 'markdown-it-anchor': '8.6.7' }, dependencies: { '@11ty/eleventy-img': '^3.1.8', '@11ty/eleventy-navigation': '0.3.5', '@picocss/pico': '1.5.10', 'clean-css': '5.3.2', 'html-minifier': '4.0.0', 'uglify-js': '3.17.4' } }, section: 'contact', layout: 'layouts/contact.njk', title: 'Get in touch with us', metaDescription: "This is a sample meta description. If one is not present in your page/post's front matter, the default metadata.desciption will be used instead.", date: 2018-01-01T00:00:00.000Z, permalink: '/contact/index.html', eleventyNavigation: { key: 'Contact', order: 3 }, page: { date: 2018-01-01T00:00:00.000Z, inputPath: './pages/contact.md', fileSlug: 'contact', filePathStem: '/pages/contact', outputFileExtension: 'html', templateSyntax: 'liquid,md' }, collections: {} }
+2023-12-12T23:35:12.108Z Dev:Eleventy:TemplateContent './404.md' compile() using engine: 'md'
+2023-12-12T23:35:12.108Z Dev:Eleventy:TemplateContent './404.md' getCompiledTemplate function created
+2023-12-12T23:35:12.108Z Dev:Eleventy:TemplateContent './404.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.108Z Eleventy:Template Rendering permalink for './404.md': /404.html becomes '/404.html'
+2023-12-12T23:35:12.108Z Dev:Eleventy:Template Permalink rendered with data: { metadata: { title: 'Eleventy Netlify Boilerplate', description: 'A template for building a simple blog website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.', url: 'https://eleventy-netlify-boilerplate.netlify.app' }, eleventy: { version: '2.0.1', generator: 'Eleventy v2.0.1', env: { source: 'cli', runMode: 'build', config: '/Users/johb/Coding/matsmart/.eleventy.js', root: '/Users/johb/Coding/matsmart', isServerless: false } }, pkg: { name: 'eleventy-netlify-boilerplate-with-picocss', version: '1.0.3', description: 'A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.', scripts: { build: 'npx eleventy', watch: 'npx eleventy --watch', serve: 'npx eleventy --serve', debug: 'DEBUG=* npx eleventy' }, repository: { type: 'git', url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate' }, author: { name: 'Csaba Szilveszter', email: 'szilvesztercsab@gmail.com', url: 'https://eleventy-netlify-boilerplate-with-picocss.netlify.app/' }, license: 'MIT', bugs: { url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate/issues' }, homepage: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate', devDependencies: { '@11ty/eleventy': '2.0.1', luxon: '3.4.4', 'markdown-it': '13.0.2', 'markdown-it-anchor': '8.6.7' }, dependencies: { '@11ty/eleventy-img': '^3.1.8', '@11ty/eleventy-navigation': '0.3.5', '@picocss/pico': '1.5.10', 'clean-css': '5.3.2', 'html-minifier': '4.0.0', 'uglify-js': '3.17.4' } }, section: 'page', title: 404, layout: 'layouts/page.njk', permalink: '/404.html', page: { date: 2023-11-21T23:38:35.107Z, inputPath: './404.md', fileSlug: '404', filePathStem: '/404', outputFileExtension: 'html', templateSyntax: 'liquid,md' }, collections: {} }
+2023-12-12T23:35:12.108Z Dev:Eleventy:TemplateContent './posts/fourthpost.md' compile() using engine: 'md'
+2023-12-12T23:35:12.109Z Dev:Eleventy:TemplateContent './posts/fourthpost.md' getCompiledTemplate function created
+2023-12-12T23:35:12.109Z Dev:Eleventy:TemplateContent './posts/fourthpost.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.109Z Eleventy:Template Rendering permalink for './posts/fourthpost.md': posts/{{ title | slug }}/index.html becomes 'posts/this-is-the-fourth-example-post/index.html'
+2023-12-12T23:35:12.109Z Dev:Eleventy:Template Permalink rendered with data: { metadata: { title: 'Eleventy Netlify Boilerplate', description: 'A template for building a simple blog website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.', url: 'https://eleventy-netlify-boilerplate.netlify.app' }, eleventy: { version: '2.0.1', generator: 'Eleventy v2.0.1', env: { source: 'cli', runMode: 'build', config: '/Users/johb/Coding/matsmart/.eleventy.js', root: '/Users/johb/Coding/matsmart', isServerless: false } }, pkg: { name: 'eleventy-netlify-boilerplate-with-picocss', version: '1.0.3', description: 'A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.', scripts: { build: 'npx eleventy', watch: 'npx eleventy --watch', serve: 'npx eleventy --serve', debug: 'DEBUG=* npx eleventy' }, repository: { type: 'git', url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate' }, author: { name: 'Csaba Szilveszter', email: 'szilvesztercsab@gmail.com', url: 'https://eleventy-netlify-boilerplate-with-picocss.netlify.app/' }, license: 'MIT', bugs: { url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate/issues' }, homepage: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate', devDependencies: { '@11ty/eleventy': '2.0.1', luxon: '3.4.4', 'markdown-it': '13.0.2', 'markdown-it-anchor': '8.6.7' }, dependencies: { '@11ty/eleventy-img': '^3.1.8', '@11ty/eleventy-navigation': '0.3.5', '@picocss/pico': '1.5.10', 'clean-css': '5.3.2', 'html-minifier': '4.0.0', 'uglify-js': '3.17.4' } }, section: 'post', layout: 'layouts/post.njk', permalink: 'posts/{{ title | slug }}/index.html', author: 'John Doe', tags: [ 'post', 'environment', 'politics' ], title: 'This is the fourth example post', date: 2020-02-03T00:00:00.000Z, summary: 'Why contemplating our mortality can be a powerful catalyst for change', page: { date: 2020-02-03T00:00:00.000Z, inputPath: './posts/fourthpost.md', fileSlug: 'fourthpost', filePathStem: '/posts/fourthpost', outputFileExtension: 'html', templateSyntax: 'liquid,md' }, collections: {} }
+2023-12-12T23:35:12.110Z Dev:Eleventy:TemplateContent './posts/thirdpost.md' compile() using engine: 'md'
+2023-12-12T23:35:12.110Z Dev:Eleventy:TemplateContent './posts/thirdpost.md' getCompiledTemplate function created
+2023-12-12T23:35:12.110Z Dev:Eleventy:TemplateContent './posts/thirdpost.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.110Z Eleventy:Template Rendering permalink for './posts/thirdpost.md': posts/{{ title | slug }}/index.html becomes 'posts/this-is-the-third-example-post-which-has-a-slightly-longer-title-than-the-others/index.html'
+2023-12-12T23:35:12.110Z Dev:Eleventy:Template Permalink rendered with data: { metadata: { title: 'Eleventy Netlify Boilerplate', description: 'A template for building a simple blog website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.', url: 'https://eleventy-netlify-boilerplate.netlify.app' }, eleventy: { version: '2.0.1', generator: 'Eleventy v2.0.1', env: { source: 'cli', runMode: 'build', config: '/Users/johb/Coding/matsmart/.eleventy.js', root: '/Users/johb/Coding/matsmart', isServerless: false } }, pkg: { name: 'eleventy-netlify-boilerplate-with-picocss', version: '1.0.3', description: 'A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.', scripts: { build: 'npx eleventy', watch: 'npx eleventy --watch', serve: 'npx eleventy --serve', debug: 'DEBUG=* npx eleventy' }, repository: { type: 'git', url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate' }, author: { name: 'Csaba Szilveszter', email: 'szilvesztercsab@gmail.com', url: 'https://eleventy-netlify-boilerplate-with-picocss.netlify.app/' }, license: 'MIT', bugs: { url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate/issues' }, homepage: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate', devDependencies: { '@11ty/eleventy': '2.0.1', luxon: '3.4.4', 'markdown-it': '13.0.2', 'markdown-it-anchor': '8.6.7' }, dependencies: { '@11ty/eleventy-img': '^3.1.8', '@11ty/eleventy-navigation': '0.3.5', '@picocss/pico': '1.5.10', 'clean-css': '5.3.2', 'html-minifier': '4.0.0', 'uglify-js': '3.17.4' } }, section: 'post', layout: 'layouts/post.njk', permalink: 'posts/{{ title | slug }}/index.html', author: 'Jane Doe', tags: [ 'post', 'tech', 'politics' ], title: 'This is the third example post which has a slightly longer title than the others', date: 2020-01-01T00:00:00.000Z, summary: 'Why contemplating our mortality can be a powerful catalyst for change', page: { date: 2020-01-01T00:00:00.000Z, inputPath: './posts/thirdpost.md', fileSlug: 'thirdpost', filePathStem: '/posts/thirdpost', outputFileExtension: 'html', templateSyntax: 'liquid,md' }, collections: {} }
+2023-12-12T23:35:12.110Z Dev:Eleventy:TemplateContent './posts/the-fifth-and-hopefully-final-example-post.md' compile() using engine: 'md'
+2023-12-12T23:35:12.110Z Dev:Eleventy:TemplateContent './posts/the-fifth-and-hopefully-final-example-post.md' getCompiledTemplate function created
+2023-12-12T23:35:12.110Z Dev:Eleventy:TemplateContent './posts/the-fifth-and-hopefully-final-example-post.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.110Z Eleventy:Template Rendering permalink for './posts/the-fifth-and-hopefully-final-example-post.md': posts/{{ title | slug }}/index.html becomes 'posts/the-fifth-and-hopefully-final-example-post/index.html'
+2023-12-12T23:35:12.110Z Dev:Eleventy:Template Permalink rendered with data: { metadata: { title: 'Eleventy Netlify Boilerplate', description: 'A template for building a simple blog website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.', url: 'https://eleventy-netlify-boilerplate.netlify.app' }, eleventy: { version: '2.0.1', generator: 'Eleventy v2.0.1', env: { source: 'cli', runMode: 'build', config: '/Users/johb/Coding/matsmart/.eleventy.js', root: '/Users/johb/Coding/matsmart', isServerless: false } }, pkg: { name: 'eleventy-netlify-boilerplate-with-picocss', version: '1.0.3', description: 'A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.', scripts: { build: 'npx eleventy', watch: 'npx eleventy --watch', serve: 'npx eleventy --serve', debug: 'DEBUG=* npx eleventy' }, repository: { type: 'git', url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate' }, author: { name: 'Csaba Szilveszter', email: 'szilvesztercsab@gmail.com', url: 'https://eleventy-netlify-boilerplate-with-picocss.netlify.app/' }, license: 'MIT', bugs: { url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate/issues' }, homepage: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate', devDependencies: { '@11ty/eleventy': '2.0.1', luxon: '3.4.4', 'markdown-it': '13.0.2', 'markdown-it-anchor': '8.6.7' }, dependencies: { '@11ty/eleventy-img': '^3.1.8', '@11ty/eleventy-navigation': '0.3.5', '@picocss/pico': '1.5.10', 'clean-css': '5.3.2', 'html-minifier': '4.0.0', 'uglify-js': '3.17.4' } }, section: 'post', layout: 'layouts/post.njk', permalink: 'posts/{{ title | slug }}/index.html', author: 'Jane Doe', tags: [ 'post', 'environment', 'sport' ], title: 'The fifth and hopefully final example post', date: 2020-10-15T12:23:39.598Z, summary: 'Why contemplating our mortality can be a powerful catalyst for change', page: { date: 2020-10-15T12:23:39.598Z, inputPath: './posts/the-fifth-and-hopefully-final-example-post.md', fileSlug: 'the-fifth-and-hopefully-final-example-post', filePathStem: '/posts/the-fifth-and-hopefully-final-example-post', outputFileExtension: 'html', templateSyntax: 'liquid,md' }, collections: {} }
+2023-12-12T23:35:12.111Z Dev:Eleventy:TemplateContent './posts/secondpost.md' compile() using engine: 'md'
+2023-12-12T23:35:12.111Z Dev:Eleventy:TemplateContent './posts/secondpost.md' getCompiledTemplate function created
+2023-12-12T23:35:12.111Z Dev:Eleventy:TemplateContent './posts/secondpost.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.111Z Eleventy:Template Rendering permalink for './posts/secondpost.md': posts/{{ title | slug }}/index.html becomes 'posts/this-is-the-second-example-post/index.html'
+2023-12-12T23:35:12.111Z Dev:Eleventy:Template Permalink rendered with data: { metadata: { title: 'Eleventy Netlify Boilerplate', description: 'A template for building a simple blog website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.', url: 'https://eleventy-netlify-boilerplate.netlify.app' }, eleventy: { version: '2.0.1', generator: 'Eleventy v2.0.1', env: { source: 'cli', runMode: 'build', config: '/Users/johb/Coding/matsmart/.eleventy.js', root: '/Users/johb/Coding/matsmart', isServerless: false } }, pkg: { name: 'eleventy-netlify-boilerplate-with-picocss', version: '1.0.3', description: 'A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.', scripts: { build: 'npx eleventy', watch: 'npx eleventy --watch', serve: 'npx eleventy --serve', debug: 'DEBUG=* npx eleventy' }, repository: { type: 'git', url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate' }, author: { name: 'Csaba Szilveszter', email: 'szilvesztercsab@gmail.com', url: 'https://eleventy-netlify-boilerplate-with-picocss.netlify.app/' }, license: 'MIT', bugs: { url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate/issues' }, homepage: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate', devDependencies: { '@11ty/eleventy': '2.0.1', luxon: '3.4.4', 'markdown-it': '13.0.2', 'markdown-it-anchor': '8.6.7' }, dependencies: { '@11ty/eleventy-img': '^3.1.8', '@11ty/eleventy-navigation': '0.3.5', '@picocss/pico': '1.5.10', 'clean-css': '5.3.2', 'html-minifier': '4.0.0', 'uglify-js': '3.17.4' } }, section: 'post', layout: 'layouts/post.njk', permalink: 'posts/{{ title | slug }}/index.html', author: 'John Appleseed', tags: [ 'post', 'sport' ], title: 'This is the second example post', summary: 'Why contemplating our mortality can be a powerful catalyst for change', date: 2020-01-01T00:00:00.000Z, page: { date: 2020-01-01T00:00:00.000Z, inputPath: './posts/secondpost.md', fileSlug: 'secondpost', filePathStem: '/posts/secondpost', outputFileExtension: 'html', templateSyntax: 'liquid,md' }, collections: {} }
+2023-12-12T23:35:12.111Z Dev:Eleventy:TemplateContent './posts/firstpost.md' compile() using engine: 'md'
+2023-12-12T23:35:12.111Z Dev:Eleventy:TemplateContent './posts/firstpost.md' getCompiledTemplate function created
+2023-12-12T23:35:12.111Z Dev:Eleventy:TemplateContent './posts/firstpost.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.111Z Eleventy:Template Rendering permalink for './posts/firstpost.md': posts/{{ title | slug }}/index.html becomes 'posts/this-is-the-first-example-post/index.html'
+2023-12-12T23:35:12.111Z Dev:Eleventy:Template Permalink rendered with data: { metadata: { title: 'Eleventy Netlify Boilerplate', description: 'A template for building a simple blog website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.', url: 'https://eleventy-netlify-boilerplate.netlify.app' }, eleventy: { version: '2.0.1', generator: 'Eleventy v2.0.1', env: { source: 'cli', runMode: 'build', config: '/Users/johb/Coding/matsmart/.eleventy.js', root: '/Users/johb/Coding/matsmart', isServerless: false } }, pkg: { name: 'eleventy-netlify-boilerplate-with-picocss', version: '1.0.3', description: 'A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.', scripts: { build: 'npx eleventy', watch: 'npx eleventy --watch', serve: 'npx eleventy --serve', debug: 'DEBUG=* npx eleventy' }, repository: { type: 'git', url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate' }, author: { name: 'Csaba Szilveszter', email: 'szilvesztercsab@gmail.com', url: 'https://eleventy-netlify-boilerplate-with-picocss.netlify.app/' }, license: 'MIT', bugs: { url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate/issues' }, homepage: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate', devDependencies: { '@11ty/eleventy': '2.0.1', luxon: '3.4.4', 'markdown-it': '13.0.2', 'markdown-it-anchor': '8.6.7' }, dependencies: { '@11ty/eleventy-img': '^3.1.8', '@11ty/eleventy-navigation': '0.3.5', '@picocss/pico': '1.5.10', 'clean-css': '5.3.2', 'html-minifier': '4.0.0', 'uglify-js': '3.17.4' } }, section: 'post', layout: 'layouts/post.njk', permalink: 'posts/{{ title | slug }}/index.html', author: 'John Appleseed', tags: [ 'post', 'tech', 'environment', 'politics', 'sport' ], title: 'This is the first example post', date: 2019-01-01T00:00:00.000Z, main_image: '/static/img/kottfarsas.png', image_alt: 'En bild av en portion vanlig Spaghetti med Köttfärssås också kallat Bolognese. Lite riven parmesan och ett basilikablad på toppen. Bilden Genererad med DALL·E 3', image_caption: 'Spaghetti med Köttfärssås är samma sak som Spaghetti Bolognese och det är den vanligaste rätten som lagas i svenska hem.', summary: "Sveriges favoriträtt, Spaghetti Bolognese. Enkel att laga och alltid uppskattad. Lär dig att 'tweaka' receptet för att göra det nyttigare och smartare utan att förlora dess klassiska charm.", metaDescription: "This is a sample meta description. If one is not present in your page/post's front matter, the default metadata.desciption will be used instead.", page: { date: 2019-01-01T00:00:00.000Z, inputPath: './posts/firstpost.md', fileSlug: 'firstpost', filePathStem: '/posts/firstpost', outputFileExtension: 'html', templateSyntax: 'liquid,md' }, collections: {} }
+2023-12-12T23:35:12.111Z Dev:Eleventy:TemplateContent './pages/home.md' compile() using engine: 'md'
+2023-12-12T23:35:12.111Z Dev:Eleventy:TemplateContent './pages/home.md' getCompiledTemplate function created
+2023-12-12T23:35:12.112Z Dev:Eleventy:TemplateContent './pages/home.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.112Z Eleventy:Template Rendering permalink for './pages/home.md': / becomes '/'
+2023-12-12T23:35:12.112Z Dev:Eleventy:Template Permalink rendered with data: { metadata: { title: 'Eleventy Netlify Boilerplate', description: 'A template for building a simple blog website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.', url: 'https://eleventy-netlify-boilerplate.netlify.app' }, eleventy: { version: '2.0.1', generator: 'Eleventy v2.0.1', env: { source: 'cli', runMode: 'build', config: '/Users/johb/Coding/matsmart/.eleventy.js', root: '/Users/johb/Coding/matsmart', isServerless: false } }, pkg: { name: 'eleventy-netlify-boilerplate-with-picocss', version: '1.0.3', description: 'A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.', scripts: { build: 'npx eleventy', watch: 'npx eleventy --watch', serve: 'npx eleventy --serve', debug: 'DEBUG=* npx eleventy' }, repository: { type: 'git', url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate' }, author: { name: 'Csaba Szilveszter', email: 'szilvesztercsab@gmail.com', url: 'https://eleventy-netlify-boilerplate-with-picocss.netlify.app/' }, license: 'MIT', bugs: { url: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate/issues' }, homepage: 'https://github.com/szilvesztercsab/eleventy-netlify-boilerplate', devDependencies: { '@11ty/eleventy': '2.0.1', luxon: '3.4.4', 'markdown-it': '13.0.2', 'markdown-it-anchor': '8.6.7' }, dependencies: { '@11ty/eleventy-img': '^3.1.8', '@11ty/eleventy-navigation': '0.3.5', '@picocss/pico': '1.5.10', 'clean-css': '5.3.2', 'html-minifier': '4.0.0', 'uglify-js': '3.17.4' } }, section: 'home', layout: 'layouts/home.njk', title: 'Home', date: 2016-01-01T00:00:00.000Z, permalink: '/', eleventyNavigation: { key: 'Home', order: 0 }, page: { date: 2016-01-01T00:00:00.000Z, inputPath: './pages/home.md', fileSlug: 'home', filePathStem: '/pages/home', outputFileExtension: 'html', templateSyntax: 'liquid,md' }, collections: {} }
+2023-12-12T23:35:12.112Z Eleventy:TemplateMap Collection: collections.all size: 11
+2023-12-12T23:35:12.112Z Eleventy:TemplateMap Collection: collections.post size: 5
+2023-12-12T23:35:12.112Z Eleventy:TemplateMap Collection: collections.environment size: 3
+2023-12-12T23:35:12.112Z Eleventy:TemplateMap Collection: collections.politics size: 3
+2023-12-12T23:35:12.112Z Eleventy:TemplateMap Collection: collections.tech size: 2
+2023-12-12T23:35:12.112Z Eleventy:TemplateMap Collection: collections.sport size: 3
+2023-12-12T23:35:12.113Z Eleventy:TemplateMap Collection: collections.authors size: undefined
+2023-12-12T23:35:12.114Z Dev:Eleventy:Template new Template('./author.njk')
+2023-12-12T23:35:12.114Z Dev:Eleventy:TemplateContent './author.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.116Z Dev:Eleventy:TemplateContent './author.njk' getCompiledTemplate function created
+2023-12-12T23:35:12.117Z Dev:Eleventy:TemplateContent './author.njk' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.117Z Eleventy:Template Rendering permalink for './author.njk': authors/{{ author | slug }}/ becomes 'authors/john-appleseed/'
+2023-12-12T23:35:12.117Z Dev:Eleventy:Template Permalink rendered with data: { pagination: { items: [ 'John Appleseed' ], page: { previous: null, next: 'Jane Doe', first: 'John Appleseed', last: 'John Doe' }, pageNumber: 0 }, page: {}, author: 'John Appleseed' }
+2023-12-12T23:35:12.117Z Dev:Eleventy:Template new Template('./author.njk')
+2023-12-12T23:35:12.117Z Dev:Eleventy:TemplateContent './author.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.117Z Dev:Eleventy:TemplateContent './author.njk' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.117Z Eleventy:Template Rendering permalink for './author.njk': authors/{{ author | slug }}/ becomes 'authors/jane-doe/'
+2023-12-12T23:35:12.117Z Dev:Eleventy:Template Permalink rendered with data: { pagination: { items: [ 'Jane Doe' ], page: { previous: 'John Appleseed', next: 'John Doe', first: 'John Appleseed', last: 'John Doe' }, pageNumber: 1 }, page: {}, author: 'Jane Doe' }
+2023-12-12T23:35:12.117Z Dev:Eleventy:Template new Template('./author.njk')
+2023-12-12T23:35:12.117Z Dev:Eleventy:TemplateContent './author.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.117Z Dev:Eleventy:TemplateContent './author.njk' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.117Z Eleventy:Template Rendering permalink for './author.njk': authors/{{ author | slug }}/ becomes 'authors/john-doe/'
+2023-12-12T23:35:12.117Z Dev:Eleventy:Template Permalink rendered with data: { pagination: { items: [ 'John Doe' ], page: { previous: 'Jane Doe', next: null, first: 'John Appleseed', last: 'John Doe' }, pageNumber: 2 }, page: {}, author: 'John Doe' }
+2023-12-12T23:35:12.118Z Dev:Eleventy:Template new Template('./authors.njk')
+2023-12-12T23:35:12.118Z Eleventy:Template Rendering permalink for './authors.njk': authors/index.html becomes 'authors/index.html'
+2023-12-12T23:35:12.118Z Dev:Eleventy:Template Permalink rendered with data: { pagination: { items: [ 'John Appleseed', 'Jane Doe', 'John Doe' ], page: { previous: null, next: null, first: [Array], last: [Array] }, pageNumber: 0 }, page: {} }
+2023-12-12T23:35:12.118Z Eleventy:TemplateMap Collection: collections.all size: 13
+2023-12-12T23:35:12.118Z Dev:Eleventy:Template new Template('./tags.njk')
+2023-12-12T23:35:12.118Z Dev:Eleventy:TemplateContent './tags.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.118Z Dev:Eleventy:TemplateContent './tags.njk' getCompiledTemplate function created
+2023-12-12T23:35:12.119Z Dev:Eleventy:TemplateContent './tags.njk' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.119Z Eleventy:Template Rendering permalink for './tags.njk': /tags/{{ tag }}/ becomes '/tags/environment/'
+2023-12-12T23:35:12.119Z Dev:Eleventy:Template Permalink rendered with data: { pagination: { items: [ 'environment' ], page: { previous: null, next: 'politics', first: 'environment', last: 'authors' }, pageNumber: 0 }, page: {}, tag: 'environment' }
+2023-12-12T23:35:12.119Z Dev:Eleventy:Template new Template('./tags.njk')
+2023-12-12T23:35:12.119Z Dev:Eleventy:TemplateContent './tags.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.119Z Dev:Eleventy:TemplateContent './tags.njk' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.119Z Eleventy:Template Rendering permalink for './tags.njk': /tags/{{ tag }}/ becomes '/tags/politics/'
+2023-12-12T23:35:12.119Z Dev:Eleventy:Template Permalink rendered with data: { pagination: { items: [ 'politics' ], page: { previous: 'environment', next: 'tech', first: 'environment', last: 'authors' }, pageNumber: 1 }, page: {}, tag: 'politics' }
+2023-12-12T23:35:12.119Z Dev:Eleventy:Template new Template('./tags.njk')
+2023-12-12T23:35:12.119Z Dev:Eleventy:TemplateContent './tags.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.119Z Dev:Eleventy:TemplateContent './tags.njk' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.119Z Eleventy:Template Rendering permalink for './tags.njk': /tags/{{ tag }}/ becomes '/tags/tech/'
+2023-12-12T23:35:12.119Z Dev:Eleventy:Template Permalink rendered with data: { pagination: { items: [ 'tech' ], page: { previous: 'politics', next: 'sport', first: 'environment', last: 'authors' }, pageNumber: 2 }, page: {}, tag: 'tech' }
+2023-12-12T23:35:12.119Z Dev:Eleventy:Template new Template('./tags.njk')
+2023-12-12T23:35:12.119Z Dev:Eleventy:TemplateContent './tags.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.119Z Dev:Eleventy:TemplateContent './tags.njk' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.119Z Eleventy:Template Rendering permalink for './tags.njk': /tags/{{ tag }}/ becomes '/tags/sport/'
+2023-12-12T23:35:12.119Z Dev:Eleventy:Template Permalink rendered with data: { pagination: { items: [ 'sport' ], page: { previous: 'tech', next: 'authors', first: 'environment', last: 'authors' }, pageNumber: 3 }, page: {}, tag: 'sport' }
+2023-12-12T23:35:12.119Z Dev:Eleventy:Template new Template('./tags.njk')
+2023-12-12T23:35:12.119Z Dev:Eleventy:TemplateContent './tags.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.119Z Dev:Eleventy:TemplateContent './tags.njk' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.119Z Eleventy:Template Rendering permalink for './tags.njk': /tags/{{ tag }}/ becomes '/tags/authors/'
+2023-12-12T23:35:12.120Z Dev:Eleventy:Template Permalink rendered with data: { pagination: { items: [ 'authors' ], page: { previous: 'sport', next: null, first: 'environment', last: 'authors' }, pageNumber: 4 }, page: {}, tag: 'authors' }
+2023-12-12T23:35:12.120Z Eleventy:TemplateMap Collection: collections.all size: 14
+2023-12-12T23:35:12.120Z Dev:Eleventy:TemplateContent './admin/index.html' compile() using engine: 'html'
+2023-12-12T23:35:12.120Z Dev:Eleventy:TemplateContent './admin/index.html' getCompiledTemplate function created
+2023-12-12T23:35:12.120Z Dev:Eleventy:TemplateContent './admin/index.html' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.120Z Dev:Eleventy:TemplateMap Added this.map[...].templateContent, outputPath, et al for one map entry
+2023-12-12T23:35:12.121Z Dev:Eleventy:TemplateContent './pages/about.md' compile() using engine: 'md'
+2023-12-12T23:35:12.121Z Dev:Eleventy:TemplateContent './pages/about.md' getCompiledTemplate function created
+2023-12-12T23:35:12.127Z Dev:Eleventy:TemplateContent './pages/about.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.127Z Dev:Eleventy:TemplateMap Added this.map[...].templateContent, outputPath, et al for one map entry
+2023-12-12T23:35:12.127Z Dev:Eleventy:TemplateContent './pages/blog.md' compile() using engine: 'md'
+2023-12-12T23:35:12.127Z Dev:Eleventy:TemplateContent './pages/blog.md' getCompiledTemplate function created
+2023-12-12T23:35:12.127Z Dev:Eleventy:TemplateContent './pages/blog.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.127Z Dev:Eleventy:TemplateMap Added this.map[...].templateContent, outputPath, et al for one map entry
+2023-12-12T23:35:12.127Z Dev:Eleventy:TemplateContent './pages/contact.md' compile() using engine: 'md'
+2023-12-12T23:35:12.127Z Dev:Eleventy:TemplateContent './pages/contact.md' getCompiledTemplate function created
+2023-12-12T23:35:12.128Z Dev:Eleventy:TemplateContent './pages/contact.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.128Z Dev:Eleventy:TemplateMap Added this.map[...].templateContent, outputPath, et al for one map entry
+2023-12-12T23:35:12.128Z Dev:Eleventy:TemplateContent './404.md' compile() using engine: 'md'
+2023-12-12T23:35:12.128Z Dev:Eleventy:TemplateContent './404.md' getCompiledTemplate function created
+2023-12-12T23:35:12.128Z Dev:Eleventy:TemplateContent './404.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.128Z Dev:Eleventy:TemplateMap Added this.map[...].templateContent, outputPath, et al for one map entry
+2023-12-12T23:35:12.128Z Dev:Eleventy:TemplateContent './posts/fourthpost.md' compile() using engine: 'md'
+2023-12-12T23:35:12.128Z Dev:Eleventy:TemplateContent './posts/fourthpost.md' getCompiledTemplate function created
+2023-12-12T23:35:12.129Z Dev:Eleventy:TemplateContent './posts/fourthpost.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.129Z Dev:Eleventy:TemplateMap Added this.map[...].templateContent, outputPath, et al for one map entry
+2023-12-12T23:35:12.129Z Dev:Eleventy:TemplateContent './posts/thirdpost.md' compile() using engine: 'md'
+2023-12-12T23:35:12.129Z Dev:Eleventy:TemplateContent './posts/thirdpost.md' getCompiledTemplate function created
+2023-12-12T23:35:12.129Z Dev:Eleventy:TemplateContent './posts/thirdpost.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.129Z Dev:Eleventy:TemplateMap Added this.map[...].templateContent, outputPath, et al for one map entry
+2023-12-12T23:35:12.129Z Dev:Eleventy:TemplateContent './posts/the-fifth-and-hopefully-final-example-post.md' compile() using engine: 'md'
+2023-12-12T23:35:12.129Z Dev:Eleventy:TemplateContent './posts/the-fifth-and-hopefully-final-example-post.md' getCompiledTemplate function created
+2023-12-12T23:35:12.129Z Dev:Eleventy:TemplateContent './posts/the-fifth-and-hopefully-final-example-post.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.129Z Dev:Eleventy:TemplateMap Added this.map[...].templateContent, outputPath, et al for one map entry
+2023-12-12T23:35:12.129Z Dev:Eleventy:TemplateContent './posts/secondpost.md' compile() using engine: 'md'
+2023-12-12T23:35:12.129Z Dev:Eleventy:TemplateContent './posts/secondpost.md' getCompiledTemplate function created
+2023-12-12T23:35:12.130Z Dev:Eleventy:TemplateContent './posts/secondpost.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.130Z Dev:Eleventy:TemplateMap Added this.map[...].templateContent, outputPath, et al for one map entry
+2023-12-12T23:35:12.130Z Dev:Eleventy:TemplateContent './posts/firstpost.md' compile() using engine: 'md'
+2023-12-12T23:35:12.130Z Dev:Eleventy:TemplateContent './posts/firstpost.md' getCompiledTemplate function created
+2023-12-12T23:35:12.132Z Dev:Eleventy:TemplateContent './posts/firstpost.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.132Z Dev:Eleventy:TemplateMap Added this.map[...].templateContent, outputPath, et al for one map entry
+2023-12-12T23:35:12.132Z Dev:Eleventy:TemplateContent './pages/home.md' compile() using engine: 'md'
+2023-12-12T23:35:12.132Z Dev:Eleventy:TemplateContent './pages/home.md' getCompiledTemplate function created
+2023-12-12T23:35:12.133Z Dev:Eleventy:TemplateContent './pages/home.md' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.133Z Dev:Eleventy:TemplateMap Added this.map[...].templateContent, outputPath, et al for one map entry
+2023-12-12T23:35:12.133Z Dev:Eleventy:TemplateContent './author.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.137Z Dev:Eleventy:TemplateContent './author.njk' getCompiledTemplate function created
+2023-12-12T23:35:12.142Z Dev:Eleventy:TemplateContent './author.njk' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.143Z Dev:Eleventy:TemplateContent './author.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.143Z Dev:Eleventy:TemplateContent './author.njk' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.143Z Dev:Eleventy:TemplateContent './author.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.144Z Dev:Eleventy:TemplateContent './author.njk' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.144Z Dev:Eleventy:TemplateMap Added this.map[...].templateContent, outputPath, et al for one map entry
+2023-12-12T23:35:12.144Z Dev:Eleventy:TemplateContent './authors.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.144Z Dev:Eleventy:TemplateContent './authors.njk' getCompiledTemplate function created
+2023-12-12T23:35:12.144Z Dev:Eleventy:TemplateContent './authors.njk' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.144Z Dev:Eleventy:TemplateMap Added this.map[...].templateContent, outputPath, et al for one map entry
+2023-12-12T23:35:12.144Z Dev:Eleventy:TemplateContent './tags.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.145Z Dev:Eleventy:TemplateContent './tags.njk' getCompiledTemplate function created
+2023-12-12T23:35:12.151Z Dev:Eleventy:TemplateContent './tags.njk' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.151Z Dev:Eleventy:TemplateContent './tags.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.151Z Dev:Eleventy:TemplateContent './tags.njk' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.152Z Dev:Eleventy:TemplateContent './tags.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.152Z Dev:Eleventy:TemplateContent './tags.njk' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.152Z Dev:Eleventy:TemplateContent './tags.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.153Z Dev:Eleventy:TemplateContent './tags.njk' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.153Z Dev:Eleventy:TemplateContent './tags.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.153Z Dev:Eleventy:TemplateContent './tags.njk' getCompiledTemplate called, rendered content created
+2023-12-12T23:35:12.153Z Dev:Eleventy:TemplateMap Added this.map[...].templateContent, outputPath, et al for one map entry
+2023-12-12T23:35:12.154Z Dev:Eleventy:TemplateWriter TemplateMap cache complete.
+2023-12-12T23:35:12.154Z Eleventy:TemplateWriter Template map created.
+2023-12-12T23:35:12.158Z Eleventy:Logger Writing _site/admin/index.html from ./admin/index.html (njk)
+2023-12-12T23:35:12.158Z Dev:Eleventy:TemplateContent './_includes/layouts/page.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.158Z Dev:Eleventy:TemplateContent './_includes/layouts/blog.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.158Z Dev:Eleventy:TemplateContent './_includes/layouts/contact.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.159Z Dev:Eleventy:TemplateContent './_includes/layouts/base.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.159Z Dev:Eleventy:TemplateContent './_includes/layouts/post.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.160Z Dev:Eleventy:TemplateContent './_includes/layouts/home.njk' compile() using engine: 'njk'
+2023-12-12T23:35:12.160Z Dev:Eleventy:TemplateContent './_includes/layouts/page.njk' getCompiledTemplate function created
+2023-12-12T23:35:12.160Z Dev:Eleventy:TemplateContent './_includes/layouts/blog.njk' getCompiledTemplate function created
+2023-12-12T23:35:12.160Z Dev:Eleventy:TemplateContent './_includes/layouts/contact.njk' getCompiledTemplate function created
+2023-12-12T23:35:12.160Z Dev:Eleventy:TemplateContent './_includes/layouts/base.njk' getCompiledTemplate function created
+2023-12-12T23:35:12.160Z Dev:Eleventy:TemplateContent './_includes/layouts/post.njk' getCompiledTemplate function created
+2023-12-12T23:35:12.160Z Dev:Eleventy:TemplateContent './_includes/layouts/home.njk' getCompiledTemplate function created
+2023-12-12T23:35:12.564Z Eleventy:Logger Writing _site/tags/environment/index.html from ./tags.njk
+2023-12-12T23:35:12.565Z Eleventy:Logger Writing _site/tags/politics/index.html from ./tags.njk
+2023-12-12T23:35:12.565Z Eleventy:Logger Writing _site/tags/tech/index.html from ./tags.njk
+2023-12-12T23:35:12.565Z Eleventy:Logger Writing _site/tags/sport/index.html from ./tags.njk
+2023-12-12T23:35:12.565Z Eleventy:Logger Writing _site/tags/authors/index.html from ./tags.njk
+2023-12-12T23:35:12.565Z Eleventy:Logger Writing _site/authors/john-appleseed/index.html from ./author.njk
+2023-12-12T23:35:12.565Z Eleventy:Logger Writing _site/authors/jane-doe/index.html from ./author.njk
+2023-12-12T23:35:12.565Z Eleventy:Logger Writing _site/authors/john-doe/index.html from ./author.njk
+2023-12-12T23:35:12.565Z Eleventy:Logger Writing _site/authors/index.html from ./authors.njk
+2023-12-12T23:35:12.582Z Eleventy:Logger Writing _site/about/index.html from ./pages/about.md (liquid)
+2023-12-12T23:35:12.582Z Eleventy:Logger Writing _site/404.html from ./404.md (liquid)
+2023-12-12T23:35:12.582Z Eleventy:Logger Writing _site/blog/index.html from ./pages/blog.md (liquid)
+2023-12-12T23:35:12.582Z Eleventy:Logger Writing _site/contact/index.html from ./pages/contact.md (liquid)
+2023-12-12T23:35:12.582Z Eleventy:Logger Writing _site/posts/this-is-the-fourth-example-post/index.html from ./posts/fourthpost.md (liquid)
+2023-12-12T23:35:12.582Z Eleventy:Logger Writing _site/posts/this-is-the-third-example-post-which-has-a-slightly-longer-title-than-the-others/index.html from ./posts/thirdpost.md (liquid)
+2023-12-12T23:35:12.582Z Eleventy:Logger Writing _site/posts/the-fifth-and-hopefully-final-example-post/index.html from ./posts/the-fifth-and-hopefully-final-example-post.md (liquid)
+2023-12-12T23:35:12.582Z Eleventy:Logger Writing _site/posts/this-is-the-second-example-post/index.html from ./posts/secondpost.md (liquid)
+2023-12-12T23:35:12.582Z Eleventy:Logger Writing _site/posts/this-is-the-first-example-post/index.html from ./posts/firstpost.md (liquid)
+2023-12-12T23:35:12.582Z Eleventy:Logger Writing _site/index.html from ./pages/home.md (liquid)
+2023-12-12T23:35:12.772Z Eleventy:Template _site/admin/index.html written..
+2023-12-12T23:35:12.772Z Eleventy:Template _site/tags/environment/index.html written..
+2023-12-12T23:35:12.772Z Eleventy:Template _site/tags/politics/index.html written..
+2023-12-12T23:35:12.772Z Eleventy:Template _site/tags/tech/index.html written..
+2023-12-12T23:35:12.772Z Eleventy:Template _site/tags/sport/index.html written..
+2023-12-12T23:35:12.772Z Eleventy:Template _site/authors/jane-doe/index.html written..
+2023-12-12T23:35:12.772Z Eleventy:Template _site/authors/john-appleseed/index.html written..
+2023-12-12T23:35:12.772Z Eleventy:Template _site/tags/authors/index.html written..
+2023-12-12T23:35:12.772Z Eleventy:Template _site/authors/john-doe/index.html written..
+2023-12-12T23:35:12.772Z Eleventy:Template _site/404.html written..
+2023-12-12T23:35:12.772Z Eleventy:Template _site/about/index.html written..
+2023-12-12T23:35:12.772Z Eleventy:Template _site/authors/index.html written..
+2023-12-12T23:35:12.772Z Eleventy:Template _site/blog/index.html written..
+2023-12-12T23:35:12.772Z Eleventy:Template _site/contact/index.html written..
+2023-12-12T23:35:12.772Z Eleventy:Template _site/posts/this-is-the-fourth-example-post/index.html written..
+2023-12-12T23:35:12.772Z Eleventy:Template _site/posts/this-is-the-third-example-post-which-has-a-slightly-longer-title-than-the-others/index.html written..
+2023-12-12T23:35:12.772Z Eleventy:Template _site/posts/the-fifth-and-hopefully-final-example-post/index.html written..
+2023-12-12T23:35:12.773Z Dev:Eleventy:TemplatePassthroughManager Adding '_site/static/img/kottfarsas.png' to passthrough copy conflict map, from 'static/img/kottfarsas.png'
+2023-12-12T23:35:12.773Z Dev:Eleventy:TemplatePassthroughManager Adding '_site/static/img/logo.webp' to passthrough copy conflict map, from 'static/img/logo.webp'
+2023-12-12T23:35:12.773Z Dev:Eleventy:TemplatePassthroughManager Adding '_site/static/img/logo-darkmode.webp' to passthrough copy conflict map, from 'static/img/logo-darkmode.webp'
+2023-12-12T23:35:12.773Z Eleventy:TemplatePassthroughManager Copied './static/img' (3 files)
+2023-12-12T23:35:12.773Z Eleventy:TemplatePassthroughManager TemplatePassthrough copy finished. Current count: 10
+2023-12-12T23:35:12.819Z Eleventy:Template _site/index.html written..
+2023-12-12T23:35:12.819Z Eleventy:Template _site/posts/this-is-the-second-example-post/index.html written..
+2023-12-12T23:35:12.819Z Eleventy:Template _site/posts/this-is-the-first-example-post/index.html written..
+2023-12-12T23:35:12.820Z Eleventy:Benchmark Benchmark      0ms   0%     5× (Configuration) "slug" Liquid Filter
+2023-12-12T23:35:12.820Z Eleventy:Benchmark Benchmark      0ms   0%    32× (Configuration) "slug" Nunjucks Filter
+2023-12-12T23:35:12.820Z Eleventy:Benchmark Benchmark      5ms   0%   192× (Configuration) "url" Nunjucks Filter
+2023-12-12T23:35:12.820Z Eleventy:Benchmark Benchmark      1ms   0%    26× (Configuration) "readableDate" Nunjucks Filter
+2023-12-12T23:35:12.820Z Eleventy:Benchmark Benchmark      6ms   0%    26× (Configuration) "machineDate" Nunjucks Filter
+2023-12-12T23:35:12.820Z Eleventy:Logger Benchmark    252ms  22%    19× (Configuration) "cssmin" Nunjucks Filter
+2023-12-12T23:35:12.820Z Eleventy:Benchmark Benchmark    252ms  22%    19× (Configuration) "cssmin" Nunjucks Filter
+2023-12-12T23:35:12.820Z Eleventy:Benchmark Benchmark     85ms   7%    19× (Configuration) "jsmin" Nunjucks Filter
+2023-12-12T23:35:12.820Z Eleventy:Benchmark Benchmark     38ms   3%    20× (Configuration) "htmlmin" Transform
+2023-12-12T23:35:12.820Z Eleventy:Benchmark Benchmark      0ms   0%    19× (Configuration) "eleventyNavigation" Nunjucks Filter
+2023-12-12T23:35:12.820Z Eleventy:Benchmark Benchmark      3ms   0%     1× (Aggregate) Configuration addPlugin
+2023-12-12T23:35:12.820Z Eleventy:Benchmark Benchmark     11ms   1%     1× (Aggregate) Searching the file system (templates)
+2023-12-12T23:35:12.820Z Eleventy:Benchmark Benchmark     16ms   1%     1× (Aggregate) Searching the file system (data)
+2023-12-12T23:35:12.820Z Eleventy:Logger Benchmark    831ms  72%    10× (Aggregate) Passthrough Copy File
+2023-12-12T23:35:12.820Z Eleventy:Benchmark Benchmark    831ms  72%    10× (Aggregate) Passthrough Copy File
+2023-12-12T23:35:12.820Z Eleventy:Logger Benchmark    147ms  13%    20× (Aggregate) Template Read
+2023-12-12T23:35:12.820Z Eleventy:Benchmark Benchmark    147ms  13%    20× (Aggregate) Template Read
+2023-12-12T23:35:12.820Z Eleventy:Benchmark Benchmark      0ms   0%    20× (Aggregate) (count) getOutputLocations
+2023-12-12T23:35:12.820Z Eleventy:Benchmark Benchmark      0ms   0%    19× (Aggregate) (count) Render Permalink
+2023-12-12T23:35:12.821Z Eleventy:Benchmark Benchmark      0ms   0%    32× (Aggregate) (count) Template Compile Cache Miss
+2023-12-12T23:35:12.821Z Eleventy:Benchmark Benchmark     13ms   1%    32× (Aggregate) Template Compile
+2023-12-12T23:35:12.821Z Eleventy:Benchmark Benchmark      2ms   0%     2× (Aggregate) > Compile > ./pages/about.md
+2023-12-12T23:35:12.821Z Eleventy:Benchmark Benchmark     27ms   2%    38× (Aggregate) Render
+2023-12-12T23:35:12.821Z Eleventy:Benchmark Benchmark      6ms   1%     2× (Aggregate) > Render > ./pages/about.md
+2023-12-12T23:35:12.821Z Eleventy:Benchmark Benchmark      2ms   0%     2× (Aggregate) > Render > ./posts/firstpost.md
+2023-12-12T23:35:12.821Z Eleventy:Benchmark Benchmark      0ms   0%     3× (Aggregate) (count) > Render Permalink > ./author.njk (3 pages)
+2023-12-12T23:35:12.821Z Eleventy:Benchmark Benchmark      5ms   0%     2× (Aggregate) > Compile > ./author.njk
+2023-12-12T23:35:12.821Z Eleventy:Benchmark Benchmark      7ms   1%     6× (Aggregate) > Render > ./author.njk (3 pages)
+2023-12-12T23:35:12.821Z Eleventy:Benchmark Benchmark      0ms   0%    12× (Aggregate) (count) Template Compile Cache Hit
+2023-12-12T23:35:12.821Z Eleventy:Benchmark Benchmark      0ms   0%     5× (Aggregate) (count) > Render Permalink > ./tags.njk (5 pages)
+2023-12-12T23:35:12.821Z Eleventy:Benchmark Benchmark      8ms   1%    10× (Aggregate) > Render > ./tags.njk (5 pages)
+2023-12-12T23:35:12.821Z Eleventy:Benchmark Benchmark      6ms   1%     1× (Aggregate) > Render to > _site/authors/john-appleseed/index.html
+2023-12-12T23:35:12.821Z Eleventy:Benchmark Benchmark      6ms   1%     1× (Aggregate) > Render to > _site/tags/environment/index.html
+2023-12-12T23:35:12.821Z Eleventy:Logger Benchmark    662ms  57%    20× (Aggregate) Template Write
+2023-12-12T23:35:12.821Z Eleventy:Benchmark Benchmark    662ms  57%    20× (Aggregate) Template Write
+2023-12-12T23:35:12.821Z Eleventy:Benchmark Benchmark      2ms   0%     1× (Aggregate) > Compile > ./_includes/layouts/page.njk
+2023-12-12T23:35:12.821Z Eleventy:Benchmark Benchmark      2ms   0%     1× (Aggregate) > Compile > ./_includes/layouts/blog.njk
+[11ty] Copied 10 files / Wrote 20 files in 0.93 seconds (46.5ms each, v2.0.1)
+2023-12-12T23:35:12.822Z Eleventy Finished writing templates.
+2023-12-12T23:35:12.822Z Eleventy 
+      Getting frustrated? Have a suggestion/feature request/feedback?
+      I want to hear it! Open an issue: https://github.com/11ty/eleventy/issues/new
