@@ -1,10 +1,10 @@
 ---
-title: This is the fourth example post
+title: Krämig Tomatsås med Linser
 date: 2023-12-13T00:42:09.380Z
 main_image: /static/img/linssas.png
 image_alt: Krämig Tomatsås med Linser på spaghetti, garnerad med färsk basilika.
 image_caption: Det är alltid enkelt och gott med en vegetarisk pastasås.
-author: Ai
+author: Matsmart GPT
 summary: En vegetarisk sås som är god, full av protein och enkel att laga. Som
   de flesta tomatsåser passar bra till pasta.
 tags:
