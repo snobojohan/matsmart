@@ -135,22 +135,24 @@ h2,h3,h4,h5 {
 }
 
 /* Customizations */
-
+/* TODO: Why was that here? 
 [data-theme="light"] div {
   background-color: #666;
   color:#BD4000
 }
-
+*/
 
 
 header > nav > ul > li > a > img {
   max-width: 150px;
 }
 
+/* TODO: Change to Vector */
 [data-theme="light"] header > nav > ul > li > a > img {
   content: url("/static/img/logo.webp");
 }
 
+/* TODO: Change to Vector */
 [data-theme="dark"] header > nav > ul > li > a > img {
   content: url("/static/img/logo-darkmode.webp");
 }
@@ -187,17 +189,32 @@ button {
 * Minimal grid system with auto-layout columns
 */
 .grid {
-  grid-column-gap: var(--grid-spacing-horizontal);
-  grid-row-gap: var(--grid-spacing-vertical);
+  grid-column-gap: var(--block-spacing-horizontal); /* var(--grid-spacing-horizontal); */
+  grid-row-gap: var(--block-spacing-vertical);
   display: grid;
   grid-template-columns: 1fr;
   margin: 0;
 }
-@media (min-width: 992px) {
+
+@media (min-width: 768px) {
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(0%, 1fr));
+    grid-template-columns: repeat(2, minmax(0%, 1fr));
   }
 }
+
+@media (min-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(4, minmax(0%, 1fr));
+  }
+}
+
 .grid > * {
   min-width: 0;
 }
+
+/*
+.grid>div {
+  padding: calc(var(--grid-spacing-horizontal)/2) 0;
+  background-color: red;
+}
+*/
