@@ -7,7 +7,7 @@ image_alt: En bild av en portion vanlig Spaghetti med Köttfärssås också kall
   Genererad med DALL·E 3
 image_caption: Spaghetti med Köttfärssås är samma sak som Spaghetti Bolognese
   och det är den vanligaste rätten som lagas i svenska hem.
-author: Skapat av Ai
+author: Matsmart GPT
 summary: Sveriges favoriträtt, Spaghetti Bolognese. Enkel att laga och alltid
   uppskattad. Lär dig att 'tweaka' receptet för att göra det nyttigare och
   smartare utan att förlora dess klassiska charm.
