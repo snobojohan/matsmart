@@ -1,5 +1,5 @@
 ---
-title: The fifth and hopefully final example post
+title: Channa Masala, kryddig tomat- och kikärtsgryta
 date: 2020-10-15T12:23:39.598Z
 main_image: /static/img/masala.png
 image_alt: Channa Masala med kikärtor i kryddstark sås, garnerad med koriander,
